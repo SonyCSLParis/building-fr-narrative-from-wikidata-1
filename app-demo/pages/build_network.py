@@ -41,6 +41,7 @@ def app():
             # and wikidata triples
             build_start = datetime.now()
             graph, _ = build_network(df_wp=df_wp, df_wd=df_wd)
+            graph.serialize(destination="C:/Users/LauraBrongers/Documents/sony csl internship/RQ1/output_graph.ttl", format="turtle")
 
             if check_session_state_value(var="data_in_cache", value=True):
                 init_update_session_state(var="graph", value=graph)

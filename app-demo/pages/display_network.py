@@ -29,19 +29,27 @@ def get_timeline_data(events, text_info, info_event_type, info_actor):
     """ Timeline data in order """
     data = {
         "title": {
-            "text": {"headline": "French Revolution Timeline"}
+            "text": {"headline": "Start Timeline"}
         },
         "events": []
     }
     for _, label, start, end in events:
-        start_date = datetime.strptime(start, "%Y-%m-%d")
+        try:
+            start_date = datetime.strptime(start, "%Y-%m-%d")
+        except ValueError:
+            print(f"Invalid start date format: {start}")
+            continue  # skip this event and move on to the next one
         curr_info = {
             "text": {"headline": label},
             "start_date": {"year": start_date.year,
                            "month": start_date.month, "day": start_date.day}
         }
         if end:
-            end_date = datetime.strptime(end, "%Y-%m-%d")
+            try:
+                end_date = datetime.strptime(end, "%Y-%m-%d")
+            except ValueError:
+                print(f"Invalid start date format: {start}")
+                continue  # skip this event and move on to the next one
             curr_info["end_date"] = {
                 "year": end_date.year,
                 "month": end_date.month, "day": end_date.day

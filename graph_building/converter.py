@@ -34,7 +34,7 @@ class Converter:
     def _search_nested_pred(graph, sub_1, pred_1, obj_2):
         """ To avoid duplicates in the graph, e.g.
         (example= s1=Coup of 18 Brumaire, p1=sem:hasActor, o2=Napoleon)
-        1)in Wikidata you extract the following triples
+        1) In Wikidata you extract the following triples
         (s1, p1, ex:23)
         (ex:23, rdf.value, o2)
         2) In wikipedia you extract the same information, but it's already in the graph
@@ -402,7 +402,10 @@ class WikipediaConverter(Converter):
             df_pd = curr_df[(curr_df.predicate.str.startswith("event")) \
                             & (~curr_df.predicate.str.startswith("event_"))]
             if df_pd.shape[0] > 0:
-                graph, counter = self._add_event_pred(graph=graph, df_pd=df_pd, counter=counter)
+                try:
+                    graph, counter = self._add_event_pred(graph=graph, df_pd=df_pd, counter=counter)
+                except IndexError:
+                    continue
 
 
         return graph, counter

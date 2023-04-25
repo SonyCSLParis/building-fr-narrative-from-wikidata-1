@@ -1,15 +1,24 @@
+# uncomment the lines connected to the desired historical event (French Revolution, 
+# Russo-Ukrainian War, Peaceful Revolution)
+
 path_for_event:
   "<event> part of <revolution>":
     type: revolution
-    id: Q6534
+    #id: Q6534 # for French Revolution
+    id: Q15860072 # for Russo-Ukrainian War
+    #id: Q682258 # for Peaceful Revolution
     query_type: obj-part-of-id
   "<revolution> has significant event <event>":
     type: revolution
-    id: Q6534
+    #id: Q6534 # for French Revolution
+    id: Q15860072 # for Russo-Ukrainian War
+    #id: Q682258 # for Peaceful Revolution
     query_type: id-has-significant-event-obj
   "<event> is instance of <historical country> and has country <c>":
     type: country
-    id: Q142
+    #id: Q142 # for French Revolution
+    id: Q212 # for Russo-Ukrainian War
+    #id: Q16957 # for Peaceful Revolution
     query_type: obj-instance-of-historical-country-and-has-country-id
 type_data: events
 col_wikidata: event
@@ -21,5 +30,11 @@ session_state_wd: event_wd_time
 session_state_wp: event_wp_time
 pointintime: pointintime
 data_cached: event_collected
-year_begin: '1789'
-year_end: '1799'
+
+#year_begin: "1789" # for French Revolution
+year_begin: "2010" # for Russo-Ukrainian War
+#year_begin: "1989" # for Peaceful Revolution
+
+#year_end: "1799" # for French Revolution
+year_end: "2023" # for Russo-Ukrainian War
+#year_end: "1990" # for Peaceful Revolution 

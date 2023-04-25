@@ -14,3 +14,30 @@ streamlit-timeline==0.0.2
 PrettyTable==3.2.0
 protobuf==3.16.0
 plotly==4.14.3
+
+# If "pip install -r requirements.txt" gives an error, run the following code per line individually:
+
+#pip install pyyaml==5.4.1
+#pip install requests==2.25.1
+#pip install SPARQLWrapper==1.8.5
+#pip install pandas==1.2.5
+#pip install wikipedia==1.4.0
+#pip install lxml==4.9.1
+#pip install html5lib==1.1
+#pip install streamlit==1.11.1
+#pip install pyvis==0.1.9
+#pip install streamlit-agraph==0.0.35
+#pip install rdflib==6.1.1
+#pip install streamlit-timeline==0.0.2
+#pip install PrettyTable==3.2.0
+#pip install protobuf==3.16.0
+#pip install plotly==4.14.3
+#pip install wptools==0.4.17 
+
+# Note that in Windows it can occur that wptools could only be installed after pycurl was installed.
+# in that case run the following two lines:
+#conda install pycurl==7.43.0.6
+#pip install wptools==0.4.17
+
+
+

@@ -22,7 +22,6 @@ In the `settings` folder, create a `private.py`file and add the following paramt
 * AGENT: your user agent that you can find on the web.
 
 
-Version of Python used: 3.9.4
 
 Create a virtual env and activate it (example below with conda)
 ```bash

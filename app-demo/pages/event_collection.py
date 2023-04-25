@@ -25,13 +25,13 @@ def app():
         --- """)
     st.markdown(
         """
-        The aim of this demo was to study the French Revolution.
+        The aim of this demo was to study the replication of the narrative builder with the Russo-Ukrainian war.
 
         Several types of nodes were taken into account for this pilot:
-        * <event> **part of** <French Revolution>
-        * <French Revolution> **has significant event** <event>
+        * <event> **part of** <Russo-Ukrainian war>
+        * <Russo-Ukrainian war> **has significant event** <event>
         * <event> **is instance of** <historical country>
-        and **has country** <France>
+        and **has country** <Ukraine>
 
         An additional filter was added to extract events in the right time range.
         """
