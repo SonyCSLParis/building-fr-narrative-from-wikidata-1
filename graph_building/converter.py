@@ -174,7 +174,8 @@ class WikidataConverter(Converter):
         return graph
 
     def __call__(self, graph, df_info, counter=0):
-        events, event_labels = df_info.wd_page.unique(), df_info.eventLabel.unique()
+        helper_df = df_info[["wd_page", "eventLabel"]].drop_duplicates()
+        events, event_labels = helper_df.wd_page.values, helper_df.eventLabel.values
         for index, event in enumerate(events):
             graph = self._add_event(graph, event, event_labels[index])
             curr_df = df_info[df_info.wd_page == event]
@@ -288,6 +289,7 @@ class WikipediaConverter(Converter):
         graph.add((sub, self.ns_sem.hasActor, blank_n))
         graph.add((blank_n, RDF.type, self.ns_sem.Role))
         graph.add((blank_n, RDF.value, obj))
+        graph.add((obj, RDF.type, self.ns_sem.Actor))
         graph.add((obj, RDFS.label, Literal(obj_l)))
         graph.add((blank_n, self.ns_sem.roleType, self.participant_to_wd[pred]))
         graph.add((self.participant_to_wd[pred], RDF.type, self.ns_sem.RoleType))
@@ -373,7 +375,8 @@ class WikipediaConverter(Converter):
         return graph, counter
 
     def __call__(self, graph, df_info, counter=0):
-        events, event_labels = df_info.wd_page.values, df_info.eventLabel.values
+        helper_df = df_info[["wd_page", "eventLabel"]].drop_duplicates()
+        events, event_labels = helper_df.wd_page.values, helper_df.eventLabel.values
         for index, event in enumerate(events):
             print(event)
             graph = self._add_event(graph, event, event_labels[index])
@@ -441,3 +444,8 @@ def build_graph_by_type_combined(df1, save_folder, converter1, c_type1,
         graph.serialize(
             destination=f"{save_folder}/{type_link}_{c_type1}_{c_type2}.ttl",
             format="turtle")
+
+
+
+
+
