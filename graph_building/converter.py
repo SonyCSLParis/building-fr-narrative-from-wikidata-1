@@ -289,6 +289,7 @@ class WikipediaConverter(Converter):
         graph.add((sub, self.ns_sem.hasActor, blank_n))
         graph.add((blank_n, RDF.type, self.ns_sem.Role))
         graph.add((blank_n, RDF.value, obj))
+        graph.add((obj, RDF.type, self.ns_sem.Actor))
         graph.add((obj, RDFS.label, Literal(obj_l)))
         graph.add((obj, RDF.type, self.ns_sem.Actor))
         graph.add((blank_n, self.ns_sem.roleType, self.participant_to_wd[pred]))
@@ -377,6 +378,7 @@ class WikipediaConverter(Converter):
     def __call__(self, graph, df_info, counter=0):
         helper_df = df_info[["wd_page", "eventLabel"]].drop_duplicates()
         events, event_labels = helper_df.wd_page.values, helper_df.eventLabel.values        
+        events, event_labels = helper_df.wd_page.values, helper_df.eventLabel.values
         for index, event in enumerate(events):
             print(event)
             graph = self._add_event(graph, event, event_labels[index])
@@ -444,3 +446,8 @@ def build_graph_by_type_combined(df1, save_folder, converter1, c_type1,
         graph.serialize(
             destination=f"{save_folder}/{type_link}_{c_type1}_{c_type2}.ttl",
             format="turtle")
+
+
+
+
+
