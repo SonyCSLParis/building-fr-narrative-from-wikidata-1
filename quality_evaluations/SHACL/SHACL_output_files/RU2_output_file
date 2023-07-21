@@ -1,0 +1,105 @@
++----------+
+| Conforms |
++----------+
+|  False   |
++----------+
+
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| No. | Severity  | Focus Node                | Result Path               | Message                   | Component                 | Shape                     | Value                     |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| 1   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15920546           | ntity/P155                |  should be connecting two |                           | 67e97d20b4                | ntity/Q15733401           |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 2   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15920546           | ntity/P155                |  should be connecting two |                           | 67e97d20b4                | ntity/Q4350192            |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 3   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15833607           | ntity/P155                |  should be connecting two |                           | 67e97d20b4                | ntity/Q15733401           |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 4   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15920546           | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q15922213           |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 5   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110254389          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q110681518          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 6   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q111012672          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 7   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q114071665          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 8   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q111225887          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 9   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q117749106          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 10  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q111034374          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 11  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q111030832          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 12  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q111302296          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 13  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q110653216          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 14  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q110999040          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q113897588          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 15  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q113495737          | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q114096220          |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 16  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15833607           | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q15838763           |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 17  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15833607           | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q15925292           |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 18  | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | n87447b454e324df39341e9d3 | http://www.wikidata.org/e |
+|     |           | ntity/Q15833607           | ntity/P1542               |  should connect two event |                           | 67e97d20b23               | ntity/Q15963166           |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 19  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Date should be of type xs | DatatypeConstraintCompone | n87447b454e324df39341e9d3 | http://www.wikidata.org/. |
+|     |           | ntity/Q15859754           | nl/2009/11/sem/hasEndTime | d:date.                   | nt                        | 67e97d20b24               | well-known/genid/2c584d34 |
+|     |           |                           | Stamp                     |                           |                           |                           | 1710beff4fbfb6172e7b40f0  |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 20  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Date should be of type xs | DatatypeConstraintCompone | n87447b454e324df39341e9d3 | http://www.wikidata.org/. |
+|     |           | ntity/Q15859754           | nl/2009/11/sem/hasEndTime | d:date.                   | nt                        | 67e97d20b43               | well-known/genid/2c584d34 |
+|     |           |                           | Stamp                     |                           |                           |                           | 1710beff4fbfb6172e7b40f0  |
+|     |           |                           |                           |                           |                           |                           |                           |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+

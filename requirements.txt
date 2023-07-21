@@ -9,13 +9,16 @@ wptools==0.4.17
 streamlit==1.11.1
 pyvis==0.1.9
 streamlit-agraph==0.0.35
-rdflib==6.1.1
+rdflib==6.3.2
 streamlit-timeline==0.0.2
-PrettyTable==3.2.0
+PrettyTable==2.5.0
 protobuf==3.16.0
 plotly==4.14.3
+pyshacl==0.23.0
+openai==0.27.8
 
-# If "pip install -r requirements.txt" gives an error, run the following code per line individually:
+
+# If "pip install -r requirements.txt" gives an error, run the following code line by line individually:
 
 #pip install pyyaml==5.4.1
 #pip install requests==2.25.1
@@ -27,15 +30,18 @@ plotly==4.14.3
 #pip install streamlit==1.11.1
 #pip install pyvis==0.1.9
 #pip install streamlit-agraph==0.0.35
-#pip install rdflib==6.1.1
+#pip install rdflib==6.3.2
 #pip install streamlit-timeline==0.0.2
 #pip install PrettyTable==3.2.0
 #pip install protobuf==3.16.0
 #pip install plotly==4.14.3
 #pip install wptools==0.4.17 
+#pip install pyshacl==0.23.0
+#pip install openai==0.27.8
 
-# Note that in Windows it can occur that wptools could only be installed after pycurl was installed.
+# Note that in Windows it can occur that wptools could only be installed after pycurl was installed with conda.
 # in that case run the following two lines:
+
 #conda install pycurl==7.43.0.6
 #pip install wptools==0.4.17
 

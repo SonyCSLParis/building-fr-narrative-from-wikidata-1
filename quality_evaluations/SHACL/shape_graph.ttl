@@ -1,0 +1,320 @@
+# This document contains the SHACL shapes used to evaluate the quality of the knowledge graphs 
+# which were produced during the writing of Brongers (2023).
+
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix allen: <http://www.w3.org/2006/time#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+# EVENT #
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "The label of the event must be a string.";
+        sh:path rdfs:label ; 
+        sh:datatype xsd:string ;
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "The subevent should be of type event.";
+        sh:path sem:subEventOf ;
+        sh:class sem:Event ;
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "The subevent should be of type event.";
+        sh:path sem:hasSubEvent ;
+        sh:class sem:Event ;
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. In other words, P155 (predicate “follows”) should connect two events where one event follows the other event in a series of events." ;
+    sh:path wd:P155 ;
+    sh:or(
+        [sh:class sem:Event;]
+        [sh:class sem:SubEvent;]
+    )
+] . 
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. In other words, P156 (predicate “followed by”) should connect two events where one event follows the other event in a series of events." ;
+    sh:path wd:P156 ;
+    sh:or(
+        [sh:class sem:Event;]
+        [sh:class sem:SubEvent;]
+    )
+].
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:EventType ;
+    sh:property [
+        sh:message "The label of the event type must be a string.";
+        sh:path rdfs:label ; 
+        sh:datatype xsd:string ;
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+        sh:property [
+            sh:message "Event type should not be of type date.";
+            sh:path sem:eventType ;
+            sh:not[
+                sh:datatype xsd:date;
+                ]      
+].
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+        sh:property [
+            sh:message "Event type should not be of type integer.";
+            sh:path sem:eventType ;
+            sh:not[
+                sh:datatype xsd:integer;
+                ] 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+        sh:property [
+            sh:message "Event type should not be of type decimal.";
+            sh:path sem:eventType ;
+            sh:not[
+                sh:datatype xsd:decimal;
+                ]
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+        sh:property [
+            sh:message "Event type should not be of type string.";
+            sh:path sem:eventType ;
+            sh:not[
+                sh:datatype xsd:string;
+                ]        
+] .
+
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "The 'has effect' property should connect two events (both of type event).";
+        sh:path wd:P1542 ;
+        sh:class sem:Event ;
+] .
+
+# TIME #
+
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasEndTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasBeginTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasBeginTimeStamp ;
+        sh:lessThan sem:hasEndTimeStamp ;
+        sh:maxCount 1 ;
+        sh:message "Start date should be before or equal to end date." 
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Interval path should be connecting two events. E.g. allen:intervalBefore should connect two events where one event happened before the other." ;
+    sh:path allen:intervalBefore ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. E.g. P155 (predicate “follows”) should connect two events where one event follows the other event in a series of event." ;
+    sh:path wd:P155 ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. E.g. P155 (predicate “follows”) should connect two events where one event follows the other event in a series of event." ;
+    sh:path wd:P155 ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ].
+
+# TIME #
+
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasEndTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasBeginTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasTimeStamp ;
+        sh:datatype xsd:date ;
+        sh:message "Date should be of type xsd:date." 
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:path sem:hasBeginTimeStamp ;
+        sh:lessThan sem:hasEndTimeStamp ;
+        sh:maxCount 1 ;
+        sh:message "Start date should be before or equal to end date." 
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Interval path should be connecting two events. E.g. allen:intervalBefore should connect two events where one event happened before the other." ;
+    sh:path allen:intervalBefore ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. E.g. P155 (predicate “follows”) should connect two events where one event follows the other event in a series of event." ;
+    sh:path wd:P155 ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+    sh:message "Serie describing property should be connecting two events. E.g. P155 (predicate “follows”) should connect two events where one event follows the other event in a series of event." ;
+    sh:path wd:P155 ;
+    sh:or(
+        [sh:type sem:Event;]
+        [sh:type sem:SubEvent;]
+    )
+    ] .
+
+# LOCATION #
+schema:PlaceShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Place ;
+    sh:property [
+    sh:message "Location does not have the correct type.";
+    sh:path sem:hasPlace ;
+sh:or (
+    [sh:datatype wd:Q142 ;]
+    [sh:datatype wd:Q276 ;]
+    [sh:datatype wd:P131 ;]
+    [sh:datatype wd:P30 ;]
+    [sh:datatype wd:P17 ;]
+    [sem:placeType wd:Q142 ;]
+    [sem:placeType wd:Q276 ;]
+    [sem:placeType wd:P131 ;]
+    [sem:placeType wd:P30 ;]
+    [sem:placeType wd:P17 ;]
+)
+] .
+schema:PlaceShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Place ;
+    sh:property [
+    sh:message "The label of the location must be a string.";
+    sh:path rdfs:label ; 
+    sh:datatype xsd:string ;
+] .
+schema:PlaceShape
+    a sh:NodeShape ;
+    sh:targetClass sem:PlaceType ;
+    sh:property [
+    sh:message "The label of the location type must be a string.";
+    sh:path rdfs:label ;
+    sh:datatype xsd:string ;
+] .
+
+# ACTORS #
+
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "Event should be connected with an actor of type actor.";        
+        sh:path (sem:hasActor rdf:value) ;
+        sh:class sem:Actor ;
+] .
+schema:EventShape
+    a sh:NodeShape ;
+    sh:targetClass sem:Event ;
+    sh:property [
+        sh:message "The event must have a blank role node which should be connected to a role of type role.";
+        sh:path sem:hasActor ;
+        sh:class sem:Role ;
+] .
+
+schema:RoleShape
+    a sh:NodeShape ;
+    sh:targetClass sem:RoleType ;
+    sh:property [
+        sh:message "The roletype must have a label of type string.";
+    sh:path rdfs:label ;
+    sh:datatype xsd:string ;
+] .

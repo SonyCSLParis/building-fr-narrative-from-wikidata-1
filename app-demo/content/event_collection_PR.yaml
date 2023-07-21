@@ -1,16 +1,16 @@
-# Event collection template
+# Event collection for Peaceful Revolution
 path_for_event:
   "<event> part of <revolution>":
     type: revolution
-    id: Q #wikidata code for event 
+    id: Q682258
     query_type: obj-part-of-id
   "<revolution> has significant event <event>":
     type: revolution
-    id: Q #wikidata code for event 
+    id: Q682258
     query_type: id-has-significant-event-obj
   "<event> is instance of <historical country> and has country <c>":
     type: country
-    id: Q #wikidata code for country 
+    id: Q16957
     query_type: obj-instance-of-historical-country-and-has-country-id
 type_data: events
 col_wikidata: event
@@ -22,5 +22,5 @@ session_state_wd: event_wd_time
 session_state_wp: event_wp_time
 pointintime: pointintime
 data_cached: event_collected
-year_begin: "0000" # start year
-year_end: "9999" # end year
+year_begin: "1989"
+year_end: "1990"

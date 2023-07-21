@@ -1,0 +1,80 @@
++----------+
+| Conforms |
++----------+
+|  False   |
++----------+
+
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| No. | Severity  | Focus Node                | Result Path               | Message                   | Component                 | Shape                     | Value                     |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| 1   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q174306             | ntity/P155                |  should be connecting two |                           | 1015dbd5b4                | ntity/Q838931             |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 2   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q1277069            | ntity/P155                |  should be connecting two |                           | 1015dbd5b4                | ntity/Q1275961            |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 3   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q3062714            | ntity/P155                |  should be connecting two |                           | 1015dbd5b4                | ntity/Q430135             |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 4   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q69323              | ntity/P155                |  should be connecting two |                           | 1015dbd5b4                | ntity/Q70972              |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 5   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q877619             | ntity/P156                |  should be connecting two |                           | 1015dbd5b9                | ntity/Q71084              |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P156 (predicate “followed |                           |                           |                           |
+|     |           |                           |                           |  by”) should connect two  |                           |                           |                           |
+|     |           |                           |                           | events where one event fo |                           |                           |                           |
+|     |           |                           |                           | llows the other event in  |                           |                           |                           |
+|     |           |                           |                           | a series of events.       |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 6   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | n02eb218fa0f6462cbbf4e30a | http://www.wikidata.org/e |
+|     |           | ntity/Q1249756            | ntity/P156                |  should be connecting two |                           | 1015dbd5b9                | ntity/Q2845944            |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P156 (predicate “followed |                           |                           |                           |
+|     |           |                           |                           |  by”) should connect two  |                           |                           |                           |
+|     |           |                           |                           | events where one event fo |                           |                           |                           |
+|     |           |                           |                           | llows the other event in  |                           |                           |                           |
+|     |           |                           |                           | a series of events.       |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 7   | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | LessThanConstraintCompone | n02eb218fa0f6462cbbf4e30a | 1790-08-01                |
+|     |           | ntity/Q2935567            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | 1015dbd5b27               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 8   | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | MaxCountConstraintCompone | n02eb218fa0f6462cbbf4e30a | -                         |
+|     |           | ntity/Q1249756            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | 1015dbd5b27               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 9   | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | LessThanConstraintCompone | n02eb218fa0f6462cbbf4e30a | 1790-08-01                |
+|     |           | ntity/Q2935567            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | 1015dbd5b46               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 10  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | MaxCountConstraintCompone | n02eb218fa0f6462cbbf4e30a | -                         |
+|     |           | ntity/Q1249756            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | 1015dbd5b46               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+

@@ -1,0 +1,116 @@
++----------+
+| Conforms |
++----------+
+|  False   |
++----------+
+
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| No. | Severity  | Focus Node                | Result Path               | Message                   | Component                 | Shape                     | Value                     |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+
+| 1   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q3062714            | ntity/P155                |  should be connecting two |                           | e5ef1a85b4                | ntity/Q430135             |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 2   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q69323              | ntity/P155                |  should be connecting two |                           | e5ef1a85b4                | ntity/Q70972              |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 3   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q174306             | ntity/P155                |  should be connecting two |                           | e5ef1a85b4                | ntity/Q838931             |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 4   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q1277069            | ntity/P155                |  should be connecting two |                           | e5ef1a85b4                | ntity/Q1275961            |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                           |                           |                           |
+|     |           |                           |                           | ) should connect two even |                           |                           |                           |
+|     |           |                           |                           | ts where one event follow |                           |                           |                           |
+|     |           |                           |                           | s the other event in a se |                           |                           |                           |
+|     |           |                           |                           | ries of events.           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 5   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q1249756            | ntity/P156                |  should be connecting two |                           | e5ef1a85b9                | ntity/Q2845944            |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P156 (predicate “followed |                           |                           |                           |
+|     |           |                           |                           |  by”) should connect two  |                           |                           |                           |
+|     |           |                           |                           | events where one event fo |                           |                           |                           |
+|     |           |                           |                           | llows the other event in  |                           |                           |                           |
+|     |           |                           |                           | a series of events.       |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 6   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent     | nf5fcd6489f79429aa20f9cf9 | http://www.wikidata.org/e |
+|     |           | ntity/Q877619             | ntity/P156                |  should be connecting two |                           | e5ef1a85b9                | ntity/Q71084              |
+|     |           |                           |                           |  events. In other words,  |                           |                           |                           |
+|     |           |                           |                           | P156 (predicate “followed |                           |                           |                           |
+|     |           |                           |                           |  by”) should connect two  |                           |                           |                           |
+|     |           |                           |                           | events where one event fo |                           |                           |                           |
+|     |           |                           |                           | llows the other event in  |                           |                           |                           |
+|     |           |                           |                           | a series of events.       |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 7   | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 7                         | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 8                         |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 8   | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 3                         | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 4                         |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 9   | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 1                         | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 2                         |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 10  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 17                        | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 18                        |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 11  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 5                         | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 6                         |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 12  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 15                        | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 16                        |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 13  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 9                         | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 10                        |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 14  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 11                        | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 12                        |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 15  | Violation | http://example.org/event_ | http://www.wikidata.org/e | The 'has effect' property | ClassConstraintComponent  | nf5fcd6489f79429aa20f9cf9 | http://example.org/event_ |
+|     |           | 13                        | ntity/P1542               |  should connect two event |                           | e5ef1a85b23               | 14                        |
+|     |           |                           |                           | s (both of type event).   |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 16  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | MaxCountConstraintCompone | nf5fcd6489f79429aa20f9cf9 | -                         |
+|     |           | ntity/Q1249756            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | e5ef1a85b27               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 17  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | LessThanConstraintCompone | nf5fcd6489f79429aa20f9cf9 | 1790-08-01                |
+|     |           | ntity/Q2935567            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | e5ef1a85b27               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 18  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | MaxCountConstraintCompone | nf5fcd6489f79429aa20f9cf9 | -                         |
+|     |           | ntity/Q1249756            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | e5ef1a85b46               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
+| 19  | Violation | http://www.wikidata.org/e | http://semanticweb.cs.vu. | Start date should be befo | LessThanConstraintCompone | nf5fcd6489f79429aa20f9cf9 | 1790-08-01                |
+|     |           | ntity/Q2935567            | nl/2009/11/sem/hasBeginTi | re or equal to end date.  | nt                        | e5ef1a85b46               |                           |
+|     |           |                           | meStamp                   |                           |                           |                           |                           |
+|     |           |                           |                           |                           |                           |                           |                           |
++-----+-----------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+---------------------------+

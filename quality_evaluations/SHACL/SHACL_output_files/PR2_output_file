@@ -1,0 +1,28 @@
++----------+
+| Conforms |
++----------+
+|  False   |
++----------+
+
++-----+-----------+---------------------------+---------------------------+---------------------------+-----------------------+---------------------------+---------------------------+
+| No. | Severity  | Focus Node                | Result Path               | Message                   | Component             | Shape                     | Value                     |
++-----+-----------+---------------------------+---------------------------+---------------------------+-----------------------+---------------------------+---------------------------+
+| 1   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent | n586e3869fd7240cba7b31959 | http://www.wikidata.org/e |
+|     |           | ntity/Q16957              | ntity/P155                |  should be connecting two |                       | fedda08bb4                | ntity/Q55300              |
+|     |           |                           |                           |  events. In other words,  |                       |                           |                           |
+|     |           |                           |                           | P155 (predicate “follows” |                       |                           |                           |
+|     |           |                           |                           | ) should connect two even |                       |                           |                           |
+|     |           |                           |                           | ts where one event follow |                       |                           |                           |
+|     |           |                           |                           | s the other event in a se |                       |                           |                           |
+|     |           |                           |                           | ries of events.           |                       |                           |                           |
+|     |           |                           |                           |                           |                       |                           |                           |
+| 2   | Violation | http://www.wikidata.org/e | http://www.wikidata.org/e | Serie describing property | OrConstraintComponent | n586e3869fd7240cba7b31959 | http://www.wikidata.org/e |
+|     |           | ntity/Q16957              | ntity/P156                |  should be connecting two |                       | fedda08bb9                | ntity/Q183                |
+|     |           |                           |                           |  events. In other words,  |                       |                           |                           |
+|     |           |                           |                           | P156 (predicate “followed |                       |                           |                           |
+|     |           |                           |                           |  by”) should connect two  |                       |                           |                           |
+|     |           |                           |                           | events where one event fo |                       |                           |                           |
+|     |           |                           |                           | llows the other event in  |                       |                           |                           |
+|     |           |                           |                           | a series of events.       |                       |                           |                           |
+|     |           |                           |                           |                           |                       |                           |                           |
++-----+-----------+---------------------------+---------------------------+---------------------------+-----------------------+---------------------------+---------------------------+

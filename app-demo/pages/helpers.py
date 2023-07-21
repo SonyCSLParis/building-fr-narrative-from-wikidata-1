@@ -44,6 +44,7 @@ def add_download_link(to_download, file_end_name: str, extension: str):
         f'download="{file_name}">Download {extension} file</a>'
     st.markdown(linko, unsafe_allow_html=True)
 
+
 def collect_data_st(content: dict):
     """ Select type of graph path to use """
     paths = st.multiselect(
@@ -67,8 +68,8 @@ def collect_data_st(content: dict):
     if st.button("Collect events"):
 
         # Collect data from Wikidata
-        id_query_type_l = [(content['path_for_event'][path]["id"],
-                            content['path_for_event'][path]["query_type"],
+        id_query_type_l = [(content["path_for_event"][path]["id"],
+                            content["path_for_event"][path]["query_type"],
                             content["year_begin"], content["year_end"]) \
                             for path in paths]
         collect_start = datetime.now()

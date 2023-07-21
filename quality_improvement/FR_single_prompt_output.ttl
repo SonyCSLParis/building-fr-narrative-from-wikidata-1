@@ -1,0 +1,21 @@
+ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "The Reign of Terror".
+ex:event_2 rdfs:label "The White Terror".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_3 rdfs:label "Violent attacks during the French Revolution".
+ex:event_4 rdfs:label "People associated with the Reign of Terror".
+
+ex:event_2 wd:P1542 ex:event_5.
+ex:event_5 rdfs:label "Wave of violent attacks in France".
+ex:event_6 rdfs:label "Followers of Robespierre and Marat".
+
+ex:event_2 wd:P1542 ex:event_7.
+ex:event_7 rdfs:label "Wave of violent attacks in France".
+ex:event_8 rdfs:label "Members of local Jacobin clubs".ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "Thermidorian Reaction".
+ex:event_2 rdfs:label "Overthrow of Maximilien Robespierre".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_3 rdfs:label "Retreat from radical goals and strategies".
+ex:event_4 rdfs:label "Replacement of leading personalities".

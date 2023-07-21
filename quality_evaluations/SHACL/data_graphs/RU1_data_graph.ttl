@@ -1,0 +1,1477 @@
+@prefix allen: <http://www.w3.org/2006/time#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:P1542 rdfs:label "has effect" .
+
+wd:P155 rdfs:label "follows" .
+
+wd:P156 rdfs:label "followed by" .
+
+wd:Q110986621 a sem:Event ;
+    rdfs:label "Minsk agreements" ;
+    sem:eventType wd:Q625298 ;
+    sem:hasBeginTimeStamp "2014-09-05"^^xsd:date .
+
+wd:Q111238640 a sem:Event ;
+    rdfs:label "detention of Mark Bernstein" ;
+    sem:eventType wd:Q1403016 ;
+    sem:hasActor ex:role_inst_124,
+        ex:role_inst_125 ;
+    sem:hasPlace wd:Q184,
+        wd:Q2280 ;
+    sem:hasTimeStamp "2022-03-11"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q111444175 a sem:Event ;
+    rdfs:label "2022 rail war in Belarus" ;
+    sem:eventType wd:Q193518 ;
+    sem:hasPlace wd:Q184 ;
+    sem:subEventOf wd:Q113454269,
+        wd:Q15860072 .
+
+wd:Q111985953 a sem:Event ;
+    rdfs:label "Q111985953" ;
+    sem:eventType wd:Q131569 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q112146572 a sem:Event ;
+    rdfs:label "2022 Ukrainian coup d'état attempt" ;
+    sem:eventType wd:Q180684,
+        wd:Q25906438 ;
+    sem:hasActor ex:role_inst_68,
+        ex:role_inst_69,
+        ex:role_inst_70,
+        ex:role_inst_71,
+        ex:role_inst_72,
+        ex:role_inst_73,
+        ex:role_inst_74,
+        ex:role_inst_75,
+        ex:role_inst_76,
+        ex:role_inst_77,
+        ex:role_inst_78,
+        ex:role_inst_79,
+        ex:role_inst_80,
+        ex:role_inst_81,
+        ex:role_inst_82,
+        ex:role_inst_83,
+        ex:role_inst_84,
+        ex:role_inst_85,
+        ex:role_inst_86,
+        ex:role_inst_87,
+        ex:role_inst_88,
+        ex:role_inst_89,
+        ex:role_inst_90,
+        ex:role_inst_91,
+        ex:role_inst_92,
+        ex:role_inst_93,
+        ex:role_inst_94 ;
+    sem:hasPlace wd:Q159,
+        wd:Q184,
+        wd:Q212 ;
+    sem:hasTimeStamp "2022-02-01"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q117324741 a sem:Event ;
+    rdfs:label "Russian spies in the Russo-Ukrainian War" ;
+    sem:hasPlace wd:Q159 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q16023012 a sem:Event ;
+    rdfs:label "Russian sabotage activities in Ukraine (2014)" ;
+    sem:eventType wd:Q193518 ;
+    sem:hasPlace wd:Q212 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q19345837 a sem:Event ;
+    rdfs:label "2015 Kharkiv bombing" ;
+    sem:eventType wd:Q2223653,
+        wd:Q750215 ;
+    sem:hasPlace wd:Q170666,
+        wd:Q212,
+        wd:Q42308 ;
+    sem:hasTimeStamp "2015-02-22"^^xsd:date ;
+    sem:subEventOf wd:Q15860072,
+        wd:Q15871713 .
+
+wd:Q19429010 a sem:Event ;
+    rdfs:label "2014 Odesa clashes" ;
+    sem:eventType wd:Q180684 ;
+    sem:hasBeginTimeStamp "2013-11-01"^^xsd:date ;
+    sem:hasEndTimeStamp "2014-05-02"^^xsd:date ;
+    sem:hasPlace wd:Q1874,
+        wd:Q212 ;
+    sem:hasTimeStamp "2010-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q15224558,
+        wd:Q15860072,
+        wd:Q15871713 .
+
+wd:Q20093392 a sem:Event ;
+    rdfs:label "list of Russian units which invaded the territory of Ukraine" ;
+    sem:eventType wd:Q13406463 ;
+    sem:hasPlace wd:Q159 ;
+    sem:subEventOf wd:Q110999040,
+        wd:Q15860072,
+        wd:Q16335075 .
+
+wd:Q25440050 a sem:Event ;
+    rdfs:label "December 2015 Ukraine power grid cyber attack" ;
+    sem:eventType wd:Q4071928 ;
+    sem:hasPlace wd:Q212 ;
+    sem:hasTimeStamp "2015-12-23"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q28704246 a sem:Event ;
+    rdfs:label "Russian–Ukrainian church war" ;
+    sem:eventType wd:Q5791104,
+        wd:Q7311342 ;
+    sem:hasActor ex:role_inst_109,
+        ex:role_inst_110,
+        ex:role_inst_111,
+        ex:role_inst_112,
+        ex:role_inst_113 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q30898126 a sem:Event ;
+    rdfs:label "2017 cyberattacks on Ukraine" ;
+    sem:eventType wd:Q4071928 ;
+    sem:hasPlace wd:Q142,
+        wd:Q145,
+        wd:Q159,
+        wd:Q183,
+        wd:Q212,
+        wd:Q29,
+        wd:Q30,
+        wd:Q36,
+        wd:Q38,
+        wd:Q668 ;
+    sem:hasTimeStamp "2017-06-27"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 ;
+    allen:intervalDuring wd:Q4071928 .
+
+wd:Q30969737 a sem:Event ;
+    rdfs:label "Russian–Ukrainian information war" ;
+    sem:eventType wd:Q911036 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q59199697 a sem:Event ;
+    rdfs:label "Kerch Strait incident" ;
+    sem:eventType wd:Q180684,
+        wd:Q467011 ;
+    sem:hasActor ex:role_inst_37,
+        ex:role_inst_38,
+        ex:role_inst_39,
+        ex:role_inst_40 ;
+    sem:hasPlace wd:Q159,
+        wd:Q187890,
+        wd:Q212 ;
+    sem:hasTimeStamp "2018-11-25"^^xsd:date ;
+    sem:subEventOf wd:Q15833607,
+        wd:Q15860072 .
+
+wd:Q59329747 a sem:Event ;
+    rdfs:label "blockade of the Azov Sea" ;
+    sem:eventType wd:Q273976 ;
+    sem:subEventOf wd:Q15860072 .
+
+ex:role_inst_1 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q7747 .
+
+ex:role_inst_10 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4385171 .
+
+ex:role_inst_100 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q15925436 .
+
+ex:role_inst_101 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q193159 .
+
+ex:role_inst_102 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q438839 .
+
+ex:role_inst_103 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q16474356 .
+
+ex:role_inst_104 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q212 .
+
+ex:role_inst_105 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q16150196 .
+
+ex:role_inst_106 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q212 .
+
+ex:role_inst_107 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q16746854 .
+
+ex:role_inst_108 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q159 .
+
+ex:role_inst_109 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q59493657 .
+
+ex:role_inst_11 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15903801 .
+
+ex:role_inst_110 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q752474 .
+
+ex:role_inst_111 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q60995 .
+
+ex:role_inst_112 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q389676 .
+
+ex:role_inst_113 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q472189 .
+
+ex:role_inst_114 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q193159 .
+
+ex:role_inst_115 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q193159 .
+
+ex:role_inst_116 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q936105 .
+
+ex:role_inst_117 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q184 .
+
+ex:role_inst_118 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q28702352 .
+
+ex:role_inst_119 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q111026001 .
+
+ex:role_inst_12 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15829163 .
+
+ex:role_inst_120 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q16150196 .
+
+ex:role_inst_121 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q16746854 .
+
+ex:role_inst_122 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q212 .
+
+ex:role_inst_123 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q159 .
+
+ex:role_inst_124 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q46503742 .
+
+ex:role_inst_125 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q101576667 .
+
+ex:role_inst_13 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15850 .
+
+ex:role_inst_14 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q471730 .
+
+ex:role_inst_15 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3916289 .
+
+ex:role_inst_16 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15914984 .
+
+ex:role_inst_17 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15871840 .
+
+ex:role_inst_18 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q704389 .
+
+ex:role_inst_19 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2509516 .
+
+ex:role_inst_2 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q23530 .
+
+ex:role_inst_20 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2482633 .
+
+ex:role_inst_21 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q488174 .
+
+ex:role_inst_22 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4247257 .
+
+ex:role_inst_23 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2038582 .
+
+ex:role_inst_24 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q735699 .
+
+ex:role_inst_25 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3874799 .
+
+ex:role_inst_26 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q58077 .
+
+ex:role_inst_27 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15850 .
+
+ex:role_inst_28 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q7747 .
+
+ex:role_inst_29 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16514790 .
+
+ex:role_inst_3 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q32024 .
+
+ex:role_inst_30 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q17488307 .
+
+ex:role_inst_31 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16902077 .
+
+ex:role_inst_32 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16474356 .
+
+ex:role_inst_33 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15902969 .
+
+ex:role_inst_34 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q43590358 .
+
+ex:role_inst_35 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q17582456 .
+
+ex:role_inst_36 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16745486 .
+
+ex:role_inst_37 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2896015 .
+
+ex:role_inst_38 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q934022 .
+
+ex:role_inst_39 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q209833 .
+
+ex:role_inst_4 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q36073 .
+
+ex:role_inst_40 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q932840 .
+
+ex:role_inst_41 a sem:Role ;
+    dbo:alongside ex:role_inst_42,
+        ex:role_inst_43,
+        ex:role_inst_44,
+        ex:role_inst_45,
+        ex:role_inst_46,
+        ex:role_inst_47,
+        ex:role_inst_48,
+        ex:role_inst_49,
+        ex:role_inst_50,
+        ex:role_inst_51,
+        ex:role_inst_52,
+        ex:role_inst_53,
+        ex:role_inst_54,
+        ex:role_inst_55 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q16150196 .
+
+ex:role_inst_5 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15065001 .
+
+ex:role_inst_56 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q16746854 .
+
+ex:role_inst_57 a sem:Role ;
+    dbo:alongside ex:role_inst_58,
+        ex:role_inst_59,
+        ex:role_inst_60,
+        ex:role_inst_61,
+        ex:role_inst_62,
+        ex:role_inst_63,
+        ex:role_inst_64,
+        ex:role_inst_65,
+        ex:role_inst_66,
+        ex:role_inst_67 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q4881953 .
+
+ex:role_inst_6 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15972050 .
+
+ex:role_inst_68 a sem:Role ;
+    dbo:alongside ex:role_inst_69,
+        ex:role_inst_70,
+        ex:role_inst_71,
+        ex:role_inst_72,
+        ex:role_inst_73,
+        ex:role_inst_74,
+        ex:role_inst_75,
+        ex:role_inst_76,
+        ex:role_inst_77,
+        ex:role_inst_78,
+        ex:role_inst_79,
+        ex:role_inst_80,
+        ex:role_inst_81,
+        ex:role_inst_82 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q16150196 .
+
+ex:role_inst_7 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2425119 .
+
+ex:role_inst_8 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15838823 .
+
+ex:role_inst_83 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q16746854 .
+
+ex:role_inst_84 a sem:Role ;
+    dbo:alongside ex:role_inst_85,
+        ex:role_inst_86,
+        ex:role_inst_87,
+        ex:role_inst_88,
+        ex:role_inst_89,
+        ex:role_inst_90,
+        ex:role_inst_91,
+        ex:role_inst_92,
+        ex:role_inst_93,
+        ex:role_inst_94 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q4881953 .
+
+ex:role_inst_9 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4231352 .
+
+ex:role_inst_95 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q936105 .
+
+ex:role_inst_96 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q193159 .
+
+ex:role_inst_97 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q193159 .
+
+ex:role_inst_98 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q159 .
+
+ex:role_inst_99 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q548164 .
+
+wd:Q101576667 a sem:Actor ;
+    rdfs:label "Main Directorate for Combating Organized Crime and Corruption of the MVD of the Republic of Belarus (GUBOPiK)" .
+
+wd:Q110653216 rdfs:label "Finland–NATO relations" .
+
+wd:Q110681518 rdfs:label "reactions to 2021–2022 Russo-Ukrainian crisis" .
+
+wd:Q111012672 rdfs:label "reactions to the 2022 Russian invasion of Ukraine" .
+
+wd:Q111026001 a sem:Actor ;
+    rdfs:label "International Legion of Territorial Defense of Ukraine" .
+
+wd:Q111030832 rdfs:label "2022 Ukrainian refugee crisis" .
+
+wd:Q111034374 rdfs:label "economic impact of the 2022 Russian invasion of Ukraine" .
+
+wd:Q111225887 rdfs:label "Call Russia" .
+
+wd:Q111302296 rdfs:label "solidarity concerts for Ukraine" .
+
+wd:Q113454269 a sem:Event ;
+    rdfs:label "2022-2023 Belarusian and Russian partisan movement" .
+
+wd:Q113495737 a sem:Event ;
+    rdfs:label "2022 referendums in Russian-occupied Ukraine" ;
+    sem:eventType wd:Q139060,
+        wd:Q43109 ;
+    sem:hasBeginTimeStamp "2022-09-23"^^xsd:date ;
+    sem:hasEndTimeStamp "2022-09-27"^^xsd:date ;
+    sem:hasPlace wd:Q113580097,
+        wd:Q113580265,
+        wd:Q16150196,
+        wd:Q16746854,
+        wd:Q212 ;
+    sem:hasTimeStamp "2022-09-01"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 ;
+    wd:P1542 wd:Q114096220 .
+
+wd:Q113580097 a sem:Place ;
+    rdfs:label "Kherson military–civilian administration" ;
+    sem:placeType wd:P276 .
+
+wd:Q113580265 a sem:Place ;
+    rdfs:label "Zaporizhia military-civilian administration" ;
+    sem:placeType wd:P276 .
+
+wd:Q113897588 rdfs:label "nuclear threats during the 2022 Russian invasion of Ukraine" .
+
+wd:Q114071665 rdfs:label "2022 Russian mobilization" .
+
+wd:Q114096220 rdfs:label "Russian annexation of Donetsk, Kherson, Luhansk and Zaporizhzhia oblasts" .
+
+wd:Q114318324 a sem:Place ;
+    rdfs:label "Kherson State" ;
+    sem:placeType wd:P17 .
+
+wd:Q114318415 a sem:Place ;
+    rdfs:label "Zaporozhye State" ;
+    sem:placeType wd:P17 .
+
+wd:Q117749106 rdfs:label "Q117749106" .
+
+wd:Q12578182 a sem:EventType ;
+    rdfs:label "cognitive perspective" .
+
+wd:Q131569 a sem:EventType ;
+    rdfs:label "treaty" .
+
+wd:Q13406463 a sem:EventType ;
+    rdfs:label "Wikimedia list article" .
+
+wd:Q139060 a sem:EventType ;
+    rdfs:label "show election" .
+
+wd:Q1403016 a sem:EventType ;
+    rdfs:label "arrest" .
+
+wd:Q142 a sem:Place ;
+    rdfs:label "France" ;
+    sem:placeType wd:P276 .
+
+wd:Q145 a sem:Place ;
+    rdfs:label "United Kingdom" ;
+    sem:placeType wd:P276 .
+
+wd:Q15065001 a sem:Actor ;
+    rdfs:label "Aleksandr Vitko" .
+
+wd:Q15224558 a sem:Event ;
+    rdfs:label "Euromaidan" .
+
+wd:Q156595 a sem:EventType ;
+    rdfs:label "self-determination" .
+
+wd:Q15829163 a sem:Actor ;
+    rdfs:label "Alexey Chaly" .
+
+wd:Q15838763 rdfs:label "Crimean referendum, 2014" .
+
+wd:Q15838823 a sem:Actor ;
+    rdfs:label "Sergey Aksyonov" .
+
+wd:Q15871840 a sem:Actor ;
+    rdfs:label "Serhiy Hayduk" .
+
+wd:Q15902969 a sem:Actor ;
+    rdfs:label "Pavel Gubarev" .
+
+wd:Q15903801 a sem:Actor ;
+    rdfs:label "Rustam Temirgaliev" .
+
+wd:Q15914984 a sem:Actor ;
+    rdfs:label "Mykhailo Kutsyn" .
+
+wd:Q15920546 a sem:Event ;
+    rdfs:label "annexation of Crimea by the Russian Federation" ;
+    sem:eventType wd:Q156595,
+        wd:Q194465 ;
+    sem:hasActor ex:role_inst_1,
+        ex:role_inst_10,
+        ex:role_inst_100,
+        ex:role_inst_101,
+        ex:role_inst_102,
+        ex:role_inst_103,
+        ex:role_inst_104,
+        ex:role_inst_11,
+        ex:role_inst_12,
+        ex:role_inst_13,
+        ex:role_inst_14,
+        ex:role_inst_15,
+        ex:role_inst_16,
+        ex:role_inst_17,
+        ex:role_inst_18,
+        ex:role_inst_19,
+        ex:role_inst_2,
+        ex:role_inst_20,
+        ex:role_inst_21,
+        ex:role_inst_22,
+        ex:role_inst_23,
+        ex:role_inst_24,
+        ex:role_inst_3,
+        ex:role_inst_4,
+        ex:role_inst_5,
+        ex:role_inst_6,
+        ex:role_inst_7,
+        ex:role_inst_8,
+        ex:role_inst_9,
+        ex:role_inst_98,
+        ex:role_inst_99 ;
+    sem:hasBeginTimeStamp "2014-02-01"^^xsd:date ;
+    sem:hasEndTimeStamp "2014-03-26"^^xsd:date ;
+    sem:hasPlace wd:Q159,
+        wd:Q212,
+        wd:Q7835 ;
+    sem:hasTimeStamp "2014-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q111442416,
+        wd:Q15860072,
+        wd:Q15871713 ;
+    wd:P1542 wd:Q15922213 ;
+    wd:P155 wd:Q15733401,
+        wd:Q15833607,
+        wd:Q4350192 .
+
+wd:Q15922213 rdfs:label "international reactions to the annexation of Crimea by the Russian Federation" .
+
+wd:Q15925292 rdfs:label "declaration of Independence of the Republic of Crimea" .
+
+wd:Q15925436 a sem:Actor ;
+    rdfs:label "Republic of Crimea" .
+
+wd:Q15963166 rdfs:label "Treaty on the Adoption of the Republic of Crimea to Russia" .
+
+wd:Q15972050 a sem:Actor ;
+    rdfs:label "Oleg Belaventsev" .
+
+wd:Q16335075 a sem:Event ;
+    rdfs:label "War in Donbas" ;
+    sem:eventType wd:Q350604,
+        wd:Q45112918,
+        wd:Q8465 ;
+    sem:hasActor ex:role_inst_105,
+        ex:role_inst_106,
+        ex:role_inst_107,
+        ex:role_inst_108,
+        ex:role_inst_25,
+        ex:role_inst_26,
+        ex:role_inst_27,
+        ex:role_inst_28,
+        ex:role_inst_29,
+        ex:role_inst_30,
+        ex:role_inst_31,
+        ex:role_inst_32,
+        ex:role_inst_33,
+        ex:role_inst_34,
+        ex:role_inst_35,
+        ex:role_inst_36 ;
+    sem:hasBeginTimeStamp "2014-04-06"^^xsd:date ;
+    sem:hasPlace wd:Q171965,
+        wd:Q2012050,
+        wd:Q212,
+        wd:Q3348196,
+        wd:Q605714 ;
+    sem:subEventOf wd:Q15860072 .
+
+wd:Q16745486 a sem:Actor ;
+    rdfs:label "Valery Bolotov" .
+
+wd:Q16902077 a sem:Actor ;
+    rdfs:label "Alexander Borodai" .
+
+wd:Q170666 a sem:Place ;
+    rdfs:label "Kharkiv Oblast" .
+
+wd:Q171965 a sem:Place ;
+    rdfs:label "Luhansk Oblast" ;
+    sem:placeType wd:P276 .
+
+wd:Q17488307 a sem:Actor ;
+    rdfs:label "Alexander Zakharchenko" .
+
+wd:Q17582456 a sem:Actor ;
+    rdfs:label "Igor Plotnitsky" .
+
+wd:Q181386 a sem:Place ;
+    rdfs:label "eastern Ukraine" ;
+    sem:placeType wd:P276 .
+
+wd:Q183 a sem:Place ;
+    rdfs:label "Germany" ;
+    sem:placeType wd:P276 .
+
+wd:Q1874 a sem:Place ;
+    rdfs:label "Odesa" ;
+    sem:placeType wd:P131,
+        wd:P276 .
+
+wd:Q187890 a sem:Place ;
+    rdfs:label "Kerch Strait",
+        "Strait of Kerch" ;
+    sem:placeType wd:P276 .
+
+wd:Q188686 a sem:EventType ;
+    rdfs:label "military occupation" .
+
+wd:Q194465 a sem:EventType ;
+    rdfs:label "annexation" .
+
+wd:Q19833559 a sem:EventType ;
+    rdfs:label "preparation" .
+
+wd:Q2001676 a sem:EventType ;
+    rdfs:label "military offensive" .
+
+wd:Q20094029 a sem:Place ;
+    rdfs:label "Russian-occupied territories of Ukraine" ;
+    sem:placeType wd:P276 .
+
+wd:Q2012050 a sem:Place ;
+    rdfs:label "Donetsk Oblast" ;
+    sem:placeType wd:P276 .
+
+wd:Q2038582 a sem:Actor ;
+    rdfs:label "Refat Chubarov" .
+
+wd:Q2087825 a sem:Place ;
+    rdfs:label "Southern Military District" ;
+    sem:placeType wd:P276 .
+
+wd:Q209833 a sem:Actor ;
+    rdfs:label "Russian Air Force" .
+
+wd:Q2223653 a sem:EventType ;
+    rdfs:label "terrorist attack" .
+
+wd:Q2280 a sem:Place ;
+    rdfs:label "Minsk" ;
+    sem:placeType wd:P276 .
+
+wd:Q23530 a sem:Actor ;
+    rdfs:label "Dmitry Medvedev" .
+
+wd:Q2425119 a sem:Actor ;
+    rdfs:label "Alexey Dyumin" .
+
+wd:Q2482633 a sem:Actor ;
+    rdfs:label "Andriy Parubiy" .
+
+wd:Q2509516 a sem:Actor ;
+    rdfs:label "Valentyn Nalyvaichenko" .
+
+wd:Q2566413 a sem:Place ;
+    rdfs:label "Western Military District of the Russian Federation" ;
+    sem:placeType wd:P276 .
+
+wd:Q25906438 a sem:EventType ;
+    rdfs:label "attempted coup d'état" .
+
+wd:Q2658266 a sem:Place ;
+    rdfs:label "Russia–Ukraine border" ;
+    sem:placeType wd:P276 .
+
+wd:Q273976 a sem:EventType ;
+    rdfs:label "blockade" .
+
+wd:Q27468 a sem:Place ;
+    rdfs:label "Eastern Europe" ;
+    sem:placeType wd:P276 .
+
+wd:Q28702352 a sem:Actor ;
+    rdfs:label "Georgian Legion" .
+
+wd:Q2896015 a sem:Actor ;
+    rdfs:label "Coast Guard (Russia)" .
+
+wd:Q29 a sem:Place ;
+    rdfs:label "Spain" ;
+    sem:placeType wd:P276 .
+
+wd:Q30 a sem:Place ;
+    rdfs:label "United States of America" ;
+    sem:placeType wd:P276 .
+
+wd:Q3348196 a sem:Place ;
+    rdfs:label "Oblasts of Ukraine" .
+
+wd:Q350604 a sem:EventType ;
+    rdfs:label "armed conflict" .
+
+wd:Q36 a sem:Place ;
+    rdfs:label "Poland" ;
+    sem:placeType wd:P276 .
+
+wd:Q38 a sem:Place ;
+    rdfs:label "Italy" ;
+    sem:placeType wd:P276 .
+
+wd:Q389676 a sem:Actor ;
+    rdfs:label "Ukrainian Orthodox Church – Kyiv Patriarchate" .
+
+wd:Q3916289 a sem:Actor ;
+    rdfs:label "Ihor Tenyukh" .
+
+wd:Q41719 a sem:EventType ;
+    rdfs:label "hypothesis" .
+
+wd:Q42308 a sem:Place ;
+    rdfs:label "Kharkiv" ;
+    sem:placeType wd:P131,
+        wd:P276 .
+
+wd:Q4231352 a sem:Actor ;
+    rdfs:label "Vladimir Konstantinov (politician)" .
+
+wd:Q4247257 a sem:Actor ;
+    rdfs:label "Serhiy Kunitsyn" .
+
+wd:Q43109 a sem:EventType ;
+    rdfs:label "referendum" .
+
+wd:Q4350192 rdfs:label "1954 transfer of Crimea" .
+
+wd:Q4385171 a sem:Actor ;
+    rdfs:label "Viktor Pshonka" .
+
+wd:Q438839 a sem:Actor ;
+    rdfs:label "Aleksandr Dugin" .
+
+wd:Q45112918 a sem:EventType ;
+    rdfs:label "combat operations" .
+
+wd:Q46503742 a sem:Actor ;
+    rdfs:label "Mark Bernstein" .
+
+wd:Q471730 a sem:Actor ;
+    rdfs:label "Arseniy Yatsenyuk" .
+
+wd:Q472189 a sem:Actor ;
+    rdfs:label "Ukrainian Greek Catholic Church" .
+
+wd:Q488174 a sem:Actor ;
+    rdfs:label "Anatolii Mohyliov" .
+
+wd:Q548164 a sem:Actor ;
+    rdfs:label "Vladislav Surkov" .
+
+wd:Q58077 a sem:Actor ;
+    rdfs:label "Petro Poroshenko" .
+
+wd:Q59493657 a sem:Actor ;
+    rdfs:label "Orthodox Church of Ukraine" .
+
+wd:Q605714 a sem:Place ;
+    rdfs:label "Donbas" ;
+    sem:placeType wd:P276 .
+
+wd:Q60995 a sem:Actor ;
+    rdfs:label "Russian Orthodox Church" .
+
+wd:Q625298 a sem:EventType ;
+    rdfs:label "peace treaty" .
+
+wd:Q668 a sem:Place ;
+    rdfs:label "India" ;
+    sem:placeType wd:P276 .
+
+wd:Q704389 a sem:Actor ;
+    rdfs:label "Arsen Avakov" .
+
+wd:Q7311342 a sem:EventType ;
+    rdfs:label "religious controversy" .
+
+wd:Q735699 a sem:Actor ;
+    rdfs:label "Mustafa Dzhemilev" .
+
+wd:Q750215 a sem:EventType ;
+    rdfs:label "mass murder" .
+
+wd:Q752474 a sem:Actor ;
+    rdfs:label "Ukrainian Orthodox Church (Moscow Patriarchate)" .
+
+wd:Q7525 a sem:Place ;
+    rdfs:label "Sevastopol" .
+
+wd:Q756294 a sem:Place ;
+    rdfs:label "Autonomous Republic of Crimea" .
+
+wd:Q7883019 a sem:EventType ;
+    rdfs:label "undeclared war" .
+
+wd:Q8465 a sem:EventType ;
+    rdfs:label "civil war" .
+
+wd:Q911036 a sem:EventType ;
+    rdfs:label "information warfare" .
+
+wd:Q932840 a sem:Actor ;
+    rdfs:label "Ukrainian Navy" .
+
+wd:Q934022 a sem:Actor ;
+    rdfs:label "Black Sea Fleet" .
+
+ex:role_inst_42 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q7747 .
+
+ex:role_inst_43 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4298520 .
+
+ex:role_inst_44 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q58217 .
+
+ex:role_inst_45 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q32024 .
+
+ex:role_inst_46 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q36073 .
+
+ex:role_inst_47 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2866 .
+
+ex:role_inst_48 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q27043179 .
+
+ex:role_inst_49 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q83283317 .
+
+ex:role_inst_50 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q105908105 .
+
+ex:role_inst_51 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q83286479 .
+
+ex:role_inst_52 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16514790 .
+
+ex:role_inst_53 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q57588106 .
+
+ex:role_inst_54 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q43590358 .
+
+ex:role_inst_55 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q21855460 .
+
+ex:role_inst_58 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3874799 .
+
+ex:role_inst_59 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q66094865 .
+
+ex:role_inst_60 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q24025631 .
+
+ex:role_inst_61 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4392444 .
+
+ex:role_inst_62 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q87069520 .
+
+ex:role_inst_63 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4154638 .
+
+ex:role_inst_64 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q54964679 .
+
+ex:role_inst_65 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q20070771 .
+
+ex:role_inst_66 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q19618525 .
+
+ex:role_inst_67 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q31919 .
+
+ex:role_inst_69 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q7747 .
+
+ex:role_inst_70 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4298520 .
+
+ex:role_inst_71 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q58217 .
+
+ex:role_inst_72 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q32024 .
+
+ex:role_inst_73 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q36073 .
+
+ex:role_inst_74 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2866 .
+
+ex:role_inst_75 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q27043179 .
+
+ex:role_inst_76 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q83283317 .
+
+ex:role_inst_77 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q105908105 .
+
+ex:role_inst_78 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q83286479 .
+
+ex:role_inst_79 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q16514790 .
+
+ex:role_inst_80 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q57588106 .
+
+ex:role_inst_81 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q43590358 .
+
+ex:role_inst_82 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q21855460 .
+
+ex:role_inst_85 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3874799 .
+
+ex:role_inst_86 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q66094865 .
+
+ex:role_inst_87 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q24025631 .
+
+ex:role_inst_88 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4392444 .
+
+ex:role_inst_89 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q87069520 .
+
+ex:role_inst_90 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q4154638 .
+
+ex:role_inst_91 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q54964679 .
+
+ex:role_inst_92 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q20070771 .
+
+ex:role_inst_93 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q19618525 .
+
+ex:role_inst_94 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q31919 .
+
+wd:P131 a sem:PlaceType ;
+    rdfs:label "located in the administrative territorial entity" .
+
+wd:Q105908105 a sem:Actor ;
+    rdfs:label "Viktor Gulevich" .
+
+wd:Q110254389 a sem:Event ;
+    rdfs:label "prelude to the 2022 Russian invasion of Ukraine" ;
+    sem:eventType wd:Q19833559,
+        wd:Q5791104 ;
+    sem:hasActor ex:role_inst_114,
+        ex:role_inst_41,
+        ex:role_inst_42,
+        ex:role_inst_43,
+        ex:role_inst_44,
+        ex:role_inst_45,
+        ex:role_inst_46,
+        ex:role_inst_47,
+        ex:role_inst_48,
+        ex:role_inst_49,
+        ex:role_inst_50,
+        ex:role_inst_51,
+        ex:role_inst_52,
+        ex:role_inst_53,
+        ex:role_inst_54,
+        ex:role_inst_55,
+        ex:role_inst_56,
+        ex:role_inst_57,
+        ex:role_inst_58,
+        ex:role_inst_59,
+        ex:role_inst_60,
+        ex:role_inst_61,
+        ex:role_inst_62,
+        ex:role_inst_63,
+        ex:role_inst_64,
+        ex:role_inst_65,
+        ex:role_inst_66,
+        ex:role_inst_67 ;
+    sem:hasBeginTimeStamp "2021-03-03"^^xsd:date ;
+    sem:hasEndTimeStamp "2022-02-24"^^xsd:date ;
+    sem:hasPlace wd:Q159,
+        wd:Q184,
+        wd:Q20094029,
+        wd:Q2087825,
+        wd:Q212,
+        wd:Q2566413,
+        wd:Q2658266 ;
+    sem:hasTimeStamp "2020-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 ;
+    wd:P1542 wd:Q110681518 ;
+    wd:P155 wd:Q111442416 ;
+    wd:P156 wd:Q110999040 .
+
+wd:Q110999040 a sem:Event ;
+    rdfs:label "2022 Russian invasion of Ukraine" ;
+    sem:eventType wd:Q198,
+        wd:Q2001676,
+        wd:Q467011,
+        wd:Q645883,
+        wd:Q7883019 ;
+    sem:hasActor ex:role_inst_115,
+        ex:role_inst_116,
+        ex:role_inst_117,
+        ex:role_inst_118,
+        ex:role_inst_119,
+        ex:role_inst_120,
+        ex:role_inst_121,
+        ex:role_inst_122,
+        ex:role_inst_123 ;
+    sem:hasBeginTimeStamp "2022-02-24"^^xsd:date ;
+    sem:hasPlace wd:Q114318324,
+        wd:Q114318415,
+        wd:Q159,
+        wd:Q16150196,
+        wd:Q16746854,
+        wd:Q184,
+        wd:Q212,
+        wd:Q27468 ;
+    sem:hasTimeStamp "2020-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 ;
+    wd:P1542 wd:Q110653216,
+        wd:Q111012672,
+        wd:Q111030832,
+        wd:Q111034374,
+        wd:Q111225887,
+        wd:Q111302296,
+        wd:Q113495737,
+        wd:Q113897588,
+        wd:Q114071665,
+        wd:Q117749106 ;
+    wd:P155 wd:Q110254389 .
+
+wd:Q15733401 rdfs:label "Revolution of Dignity" .
+
+wd:Q15850 a sem:Actor ;
+    rdfs:label "Oleksandr Turchynov" .
+
+wd:Q15859754 a sem:Event ;
+    rdfs:label "Russian occupation of Crimea" ;
+    sem:eventType wd:Q12578182,
+        wd:Q188686,
+        wd:Q41719 ;
+    sem:hasActor ex:role_inst_97 ;
+    sem:hasBeginTimeStamp "2014-02-20"^^xsd:date ;
+    sem:hasEndTimeStamp "http://www.wikidata.org/.well-known/genid/2c584d341710beff4fbfb6172e7b40f0"^^xsd:date ;
+    sem:hasPlace wd:Q159,
+        wd:Q212,
+        wd:Q7525,
+        wd:Q756294,
+        wd:Q7835 ;
+    sem:hasTimeStamp "2100-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q15860072 ;
+    wd:P155 wd:Q15833607 .
+
+wd:Q16474356 a sem:Actor ;
+    rdfs:label "Igor Girkin" .
+
+wd:Q193518 a sem:EventType ;
+    rdfs:label "sabotage" .
+
+wd:Q19618525 a sem:Actor ;
+    rdfs:label "Ruslan Khomchak" .
+
+wd:Q198 a sem:EventType ;
+    rdfs:label "war" .
+
+wd:Q20070771 a sem:Actor ;
+    rdfs:label "Serhiy Shaptala" .
+
+wd:Q21855460 a sem:Actor ;
+    rdfs:label "Sergey Kozlov (politician)" .
+
+wd:Q24025631 a sem:Actor ;
+    rdfs:label "Dmytro Kuleba" .
+
+wd:Q27043179 a sem:Actor ;
+    rdfs:label "Roman Golovchenko" .
+
+wd:Q2866 a sem:Actor ;
+    rdfs:label "Alexander Lukashenko" .
+
+wd:Q31919 a sem:Actor ;
+    rdfs:label "Vitali Klitschko" .
+
+wd:Q4154638 a sem:Actor ;
+    rdfs:label "Oleksiy Danilov" .
+
+wd:Q4298520 a sem:Actor ;
+    rdfs:label "Mikhail Mishustin" .
+
+wd:Q4392444 a sem:Actor ;
+    rdfs:label "Oleksii Reznikov" .
+
+wd:Q4881953 a sem:Actor ;
+    rdfs:label "Belarusian opposition" .
+
+wd:Q54964679 a sem:Actor ;
+    rdfs:label "Valerii Zaluzhnyi" .
+
+wd:Q57588106 a sem:Actor ;
+    rdfs:label "Alexander Ananchenko" .
+
+wd:Q5791104 a sem:EventType ;
+    rdfs:label "international crisis" .
+
+wd:Q58217 a sem:Actor ;
+    rdfs:label "Sergey Lavrov" .
+
+wd:Q645883 a sem:EventType ;
+    rdfs:label "military operation" .
+
+wd:Q66094865 a sem:Actor ;
+    rdfs:label "Denys Shmyhal" .
+
+wd:Q83283317 a sem:Actor ;
+    rdfs:label "Viktor Khrenin" .
+
+wd:Q83286479 a sem:Actor ;
+    rdfs:label "Alexander Volfovich" .
+
+wd:Q87069520 a sem:Actor ;
+    rdfs:label "Andriy Taran" .
+
+wd:Q936105 a sem:Actor ;
+    rdfs:label "Armed Forces of Ukraine" .
+
+wd:Q111442416 a sem:Event ;
+    rdfs:label "2014 Russian invasion of Ukraine" ;
+    sem:eventType wd:Q198,
+        wd:Q467011 ;
+    sem:hasBeginTimeStamp "2014-02-20"^^xsd:date ;
+    sem:hasEndTimeStamp "2015-02-20"^^xsd:date ;
+    sem:hasPlace wd:Q181386,
+        wd:Q7835 ;
+    sem:subEventOf wd:Q15860072 ;
+    wd:P156 wd:Q110254389 .
+
+wd:Q15833607 a sem:Event ;
+    rdfs:label "2014 Russian invasion of Crimea" ;
+    sem:eventType wd:Q467011,
+        wd:Q645883 ;
+    sem:hasActor ex:role_inst_95,
+        ex:role_inst_96 ;
+    sem:hasBeginTimeStamp "2014-02-19"^^xsd:date ;
+    sem:hasEndTimeStamp "2014-03-21"^^xsd:date ;
+    sem:hasPlace wd:Q159,
+        wd:Q212,
+        wd:Q7835 ;
+    sem:hasTimeStamp "2014-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q111442416,
+        wd:Q15859754,
+        wd:Q15860072 ;
+    wd:P1542 wd:Q15838763,
+        wd:Q15925292,
+        wd:Q15963166 ;
+    wd:P155 wd:Q15733401 ;
+    wd:P156 wd:Q15859754,
+        wd:Q15920546 .
+
+wd:Q15871713 a sem:Event ;
+    rdfs:label "2014 pro-Russian unrest in Ukraine" .
+
+wd:Q16514790 a sem:Actor ;
+    rdfs:label "Denis Pushilin" .
+
+wd:Q180684 a sem:EventType ;
+    rdfs:label "conflict" .
+
+wd:Q32024 a sem:Actor ;
+    rdfs:label "Sergey Shoigu",
+        "Sergey Shoygu" .
+
+wd:Q36073 a sem:Actor ;
+    rdfs:label "Valery Gerasimov" .
+
+wd:Q3874799 a sem:Actor ;
+    rdfs:label "Volodymyr Zelenskyy" .
+
+wd:Q4071928 a sem:Event,
+        sem:EventType ;
+    rdfs:label "Cyberattack",
+        "cyberattack" .
+
+wd:Q43590358 a sem:Actor ;
+    rdfs:label "Leonid Pasechnik" .
+
+wd:Q467011 a sem:EventType ;
+    rdfs:label "invasion" .
+
+wd:Q7747 a sem:Actor ;
+    rdfs:label "Vladimir Putin" .
+
+wd:Q7835 a sem:Place ;
+    rdfs:label "Crimea" ;
+    sem:placeType wd:P276 .
+
+wd:Q193159 a sem:Actor ;
+    rdfs:label "Russian Armed Forces" .
+
+wd:Q16150196 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Donetsk People's Republic" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:Q16746854 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Luhansk People's Republic" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:Q184 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Belarus" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:P17 a sem:PlaceType ;
+    rdfs:label "country" .
+
+wd:Q1414937 a sem:RoleType ;
+    rdfs:label "combatant" .
+
+wd:Q159 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Russia" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:Q212 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Ukraine" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:Q15860072 a sem:Event ;
+    rdfs:label "Russo-Ukrainian War" .
+
+wd:P276 a sem:PlaceType ;
+    rdfs:label "location" .
+
+wd:Q56512863 a sem:RoleType ;
+    rdfs:label "participant" .
+
+wd:Q11247470 a sem:RoleType ;
+    rdfs:label "commanding officer" .
+

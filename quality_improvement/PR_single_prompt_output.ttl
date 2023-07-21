@@ -1,0 +1,111 @@
+ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "Communist rule in the People's Republic of Hungary came to an end in 1989".
+ex:event_2 rdfs:label "peaceful transition to a democratic system".
+
+ex:event_3 wd:P1542 ex:event_4.
+ex:event_3 rdfs:label "Hungarian Revolution of 1956".
+ex:event_4 rdfs:label "suppression by Soviet forces".
+
+ex:event_5 wd:P1542 ex:event_6.
+ex:event_5 rdfs:label "Soviet Union weakened at the end of the 1980s".
+ex:event_6 rdfs:label "Eastern bloc disintegrated".ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "The inner German border rapidly and unexpectedly fell in November 1989, along with the fall of the Berlin Wall".
+ex:event_2 rdfs:label "The ultimate reunification of Germany just short of a year later".ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "The Monday demonstrations".
+ex:event_2 rdfs:label "peaceful political protests against the government of the German Democratic Republic (GDR)".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_3 rdfs:label "The Leipzig demonstrations".
+ex:event_3 rdfs:label "took place on Mondays".
+
+ex:event_3 wd:P1542 ex:event_4.
+ex:event_4 rdfs:label "The Monday demonstrations".
+ex:event_4 rdfs:label "series of peaceful political protests against the government of the German Democratic Republic (GDR)".
+
+ex:event_4 wd:P1542 ex:event_5.
+ex:event_5 rdfs:label "The Monday demonstrations".
+ex:event_5 rdfs:label "took place in towns and cities around the country on various days of the week from 1989 to 1991".ex:event_1 wd:P1542 ex:event_2
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_2 rdfs:label "Destruction of the Berlin Wall"
+
+ex:event_1 wd:P1542 ex:event_3
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_3 rdfs:label "Fall of communism in Central and Eastern Europe"
+
+ex:event_1 wd:P1542 ex:event_4
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_4 rdfs:label "Start of the fall of communism in Central and Eastern Europe"
+
+ex:event_1 wd:P1542 ex:event_5
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_5 rdfs:label "Start of the Peaceful Revolution"
+
+ex:event_1 wd:P1542 ex:event_6
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_6 rdfs:label "Start of the destruction of the figurative Iron Curtain"
+
+ex:event_1 wd:P1542 ex:event_7
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_7 rdfs:label "Start of the series of events that led to the end of the Cold War"
+
+ex:event_1 wd:P1542 ex:event_8
+ex:event_1 rdfs:label "The fall of the Berlin Wall"
+ex:event_8 rdfs:label "Start of the German reunification"
+
+ex:event_9 wd:P1542 ex:event_10
+ex:event_9 rdfs:label "Solidarity Movement in Poland"
+ex:event_10 rdfs:label "Fall of communism in Central and Eastern Europe"
+
+ex:event_11 wd:P1542 ex:event_12
+ex:event_11 rdfs:label "End of the Cold War"
+ex:event_12 rdfs:label "Declaration at the Malta Summit"
+
+ex:event_12 wd:P1542 ex:event_13
+ex:event_12 rdfs:label "End of the Cold War"
+ex:event_13 rdfs:label "German reunification"
+
+ex:event_14 wd:P1542 ex:event_15
+ex:event_14 rdfs:label "German reunification"
+ex:event_15 rdfs:label "End of the inner German border"ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "Soviet leader Mikhail Gorbachev's decision to abandon Soviet hegemony in Eastern Europe".
+ex:event_2 rdfs:label "The Peaceful Revolution (German: Friedliche Revolution)".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_3 rdfs:label "the opening of East Germany's borders with the West".
+ex:event_4 rdfs:label "the end of the ruling of the Socialist Unity Party of Germany (SED) (communist regime) in the German Democratic Republic (GDR or 'East Germany')".
+
+ex:event_2 wd:P1542 ex:event_5.
+ex:event_5 rdfs:label "the transition to a parliamentary democracy".
+ex:event_6 rdfs:label "the reunification of Germany in October 1990".
+
+ex:event_7 wd:P1542 ex:event_8.
+ex:event_7 rdfs:label "Soviet leader Mikhail Gorbachev's decision to abandon Soviet hegemony in Eastern Europe".
+ex:event_8 rdfs:label "the reformist movements that spread through Eastern Bloc countries".
+
+ex:event_9 wd:P1542 ex:event_10.
+ex:event_9 rdfs:label "the GDR's lack of competitiveness in the global market".
+ex:event_10 rdfs:label "the destabilization of the SED's one-party state".
+
+ex:event_11 wd:P1542 ex:event_12.
+ex:event_11 rdfs:label "intellectuals and church figures who had been in underground opposition for several years".
+ex:event_12 rdfs:label "people attempting to flee the country".
+
+ex:event_13 wd:P1542 ex:event_14.
+ex:event_13 rdfs:label "peaceful demonstrators who were no longer willing to yield to the threat of violence and repression".
+ex:event_14 rdfs:label "the opening of the border at the Berlin Wall on 9 November 1989".
+
+ex:event_14 wd:P1542 ex:event_15.
+ex:event_15 rdfs:label "the SED leadership's hostile response to the reforms implemented within its 'socialist brother lands'".
+ex:event_16 rdfs:label "the SED leadership's increasing isolation within the Eastern Bloc".
+
+ex:event_17 wd:P1542 ex:event_18.
+ex:event_17 rdfs:label "a change in leadership and a willingness to negotiate by the SED".
+ex:event_18 rdfs:label "the control of the situation increasingly laying with the West German government under Chancellor Helmut Kohl".
+
+ex:event_19 wd:P1542 ex:event_20.
+ex:event_19 rdfs:label "the GDR government of Prime Minister Hans Modrow being influenced by the Central Round Table".
+ex:event_20 rdfs:label "the dissolution of the Stasi and prepared free elections".
+
+ex:event_21 wd:P1542 ex:event_22.
+ex:event_21 rdfs:label "an election win for a coalition of parties that supported German reunification".
+ex:event_22 rdfs:label "the clear political path within the GDR".

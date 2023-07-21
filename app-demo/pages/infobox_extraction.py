@@ -4,13 +4,12 @@ import os
 import json
 from datetime import datetime
 import multiprocessing as mp
-
 import pandas as pd
 import yaml
 import wptools
 from PIL import Image
 import streamlit as st
-
+import pages.historical_event_selection
 
 from settings.settings import ROOT_PATH
 
@@ -20,9 +19,34 @@ from wikipedia_narrative.info_boxes.get_infobox import extract_infobox_no_url, g
 from wikipedia_narrative.info_boxes.html_helpers import get_html_from_url
 from .helpers import init_update_session_state, get_session_state_val, check_session_state_value, \
     add_download_link
+#######from pages.historical_event_selection import historical_event
 
-with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection.yaml")) as file:
-    content = yaml.load(file, Loader=yaml.FullLoader)
+def historical_event():
+    options = ["French Revolution", "Russo-Ukrainian War", "Peaceful Revolution"]
+    selected_hist_event = st.radio("Choose one historical event:", options) 
+
+    if not selected_hist_event:
+        st.markdown("""
+        #
+        #
+        #
+        """)
+        st.warning("Please select one historical event.")  
+    st.session_state['hist_event'] = selected_hist_event
+    #init_update_session_state(var="hist_event", value=selected_hist_event)
+    
+# set the correct content file based on the chosen historical event
+if st.session_state['hist_event'] == "French Revolution":
+    with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection_FR.yaml")) as file:
+        content = yaml.load(file, Loader=yaml.FullLoader) 
+elif st.session_state['hist_event'] == "Russo-Ukrainian War":
+    with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection_RU.yaml")) as file:
+        content = yaml.load(file, Loader=yaml.FullLoader)
+elif st.session_state['hist_event'] == "Peaceful Revolution":
+    with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection_PR.yaml")) as file:
+        content = yaml.load(file, Loader=yaml.FullLoader)
+
+
 
 def build_df_from_infobox(infoboxes):
     """ Input = infobox dict, output = pandas dataframe """
@@ -118,10 +142,13 @@ def clean_df(df_input):
 
 @st.cache(show_spinner=False)
 def find_wd_id(name):
-    """ Finf Wikidata URI from Wikipedia page name """
+    """ Find Wikidata URI from Wikipedia page name """
     print(name)
     page = wptools.page(name)
-    page.get_parse()
+    try:
+        page.get_parse()
+    except:
+        return "Q" 
     
     if page.data.get('wikibase'):
         return page.data.get('wikibase')
@@ -312,7 +339,7 @@ def app():
                     Some figures on the extracted info boxes:
 
                     * {df_wp.eventLabel.unique().shape[0]}: Number of events with an info box
-                    * {df_filter_wp.eventLabel.unique().shape[0]}: Number of events that contain a infobox
+                    * {df_filter_wp.eventLabel.unique().shape[0]}: Number of events that contain an infobox
                     with at least one useful information for the narrative
                     #
                     """)
@@ -342,6 +369,7 @@ def app():
                         .apply(lambda x: f"http://www.wikidata.org/entity/{x}")
                     df_wp = df_wp.drop_duplicates()
                     st.write(df_wp)
-
+                    add_download_link(to_download=df_wp.to_csv(index=False).encode(),
+                          file_end_name="collected-wikipedia-data-for-triples", extension="csv")
                     if check_session_state_value(var="data_in_cache", value=True):
                         init_update_session_state(var="wikipedia_for_graph", value=df_wp)

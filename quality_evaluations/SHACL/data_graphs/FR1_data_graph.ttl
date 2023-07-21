@@ -1,0 +1,2650 @@
+@prefix allen: <http://www.w3.org/2006/time#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:P1365 rdfs:label "replaces" .
+
+wd:P1542 rdfs:label "has effect" .
+
+wd:P155 rdfs:label "follows" .
+
+wd:P156 rdfs:label "followed by" .
+
+wd:Q1073320 a sem:Event ;
+    rdfs:label "Reveillon riot" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasBeginTimeStamp "1789-04-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-04-29"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q3067308 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q107995509 rdfs:label "replaced by" .
+
+wd:Q1089686 a sem:Event ;
+    rdfs:label "Champ de Mars Massacre" ;
+    sem:eventType wd:Q3199915 ;
+    sem:hasPlace wd:Q142,
+        wd:Q217925,
+        wd:Q90 ;
+    sem:hasTimeStamp "1791-07-17"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q109041266 a sem:Event ;
+    rdfs:label "Q109041266" ;
+    sem:eventType wd:Q124734 ;
+    sem:hasBeginTimeStamp "1793-08-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-06"^^xsd:date ;
+    sem:hasPlace wd:Q3361 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1108912 a sem:Event ;
+    rdfs:label "Assembly of Vizille" ;
+    sem:eventType wd:Q1752346 ;
+    sem:hasPlace wd:Q951768 ;
+    sem:hasTimeStamp "1788-07-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1151536 a sem:Event ;
+    rdfs:label "Revolt of 1 prairial year III" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1795-05-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1151917 a sem:Event ;
+    rdfs:label "Women's March on Versailles" ;
+    sem:eventType wd:Q1190554,
+        wd:Q5465517 ;
+    sem:hasBeginTimeStamp "1789-10-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-10-06"^^xsd:date ;
+    sem:hasPlace wd:Q70972 ;
+    sem:hasTimeStamp "1789-10-06"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1192894 a sem:Event ;
+    rdfs:label "Flight to Varennes" ;
+    sem:eventType wd:Q1430466 ;
+    sem:hasTimeStamp "1791-06-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1277069 a sem:Event ;
+    rdfs:label "Cult of the Supreme Being" ;
+    sem:hasActor ex:role_inst_205 ;
+    sem:hasBeginTimeStamp "1794-05-07"^^xsd:date ;
+    sem:hasPlace wd:Q58296 ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P155 wd:Q1275961 .
+
+wd:Q12989672 a sem:Event ;
+    rdfs:label "Coup of 9 Thermidor" ;
+    sem:eventType wd:Q1190554,
+        wd:Q20127274 ;
+    sem:hasActor ex:role_inst_150,
+        ex:role_inst_151,
+        ex:role_inst_152,
+        ex:role_inst_153,
+        ex:role_inst_154,
+        ex:role_inst_155,
+        ex:role_inst_156,
+        ex:role_inst_157,
+        ex:role_inst_158,
+        ex:role_inst_159,
+        ex:role_inst_160,
+        ex:role_inst_161,
+        ex:role_inst_162,
+        ex:role_inst_163,
+        ex:role_inst_164,
+        ex:role_inst_165 ;
+    sem:hasPlace wd:Q58296,
+        wd:Q640968,
+        wd:Q90 ;
+    sem:hasTimeStamp "1794-07-26"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1344444 a sem:Event ;
+    rdfs:label "Dechristianisation of France during the French Revolution" ;
+    sem:eventType wd:Q2374238,
+        wd:Q7163 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q13644774 a sem:Event ;
+    rdfs:label "Siege of Maubeuge" ;
+    sem:eventType wd:Q180684,
+        wd:Q188055 ;
+    sem:hasBeginTimeStamp "1793-09-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasPlace wd:Q138648,
+        wd:Q142 ;
+    sem:hasTimeStamp "1793-10-16"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q143866 a sem:Event ;
+    rdfs:label "Fête de la Fédération" ;
+    sem:eventType wd:Q2627975 ;
+    sem:hasPlace wd:Q142,
+        wd:Q217925 ;
+    sem:hasTimeStamp "1790-07-14"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1463941 a sem:Event ;
+    rdfs:label "Estates-General of 1789" ;
+    sem:eventType wd:Q207304 ;
+    sem:hasBeginTimeStamp "1789-01-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-06-20"^^xsd:date ;
+    sem:hasPlace wd:Q70972 ;
+    sem:hasTimeStamp "1789-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:Q107995509 wd:Q876424 .
+
+wd:Q15784403 a sem:Event ;
+    rdfs:label "Insurrection of 31 May — 2 June" ;
+    sem:eventType wd:Q180684 ;
+    sem:hasActor ex:role_inst_166,
+        ex:role_inst_167,
+        ex:role_inst_168,
+        ex:role_inst_169,
+        ex:role_inst_170,
+        ex:role_inst_171,
+        ex:role_inst_172,
+        ex:role_inst_173,
+        ex:role_inst_174,
+        ex:role_inst_175,
+        ex:role_inst_176,
+        ex:role_inst_177,
+        ex:role_inst_178,
+        ex:role_inst_179,
+        ex:role_inst_180,
+        ex:role_inst_181,
+        ex:role_inst_182,
+        ex:role_inst_183,
+        ex:role_inst_184,
+        ex:role_inst_185,
+        ex:role_inst_186,
+        ex:role_inst_187 ;
+    sem:hasBeginTimeStamp "1793-05-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-02"^^xsd:date ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1793-06-02"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q162463 a sem:Event ;
+    rdfs:label "Nancy affair" ;
+    sem:eventType wd:Q511866 ;
+    sem:hasBeginTimeStamp "1790-08-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1790-08-30"^^xsd:date ;
+    sem:hasPlace wd:Q40898 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q16669638 a sem:Event ;
+    rdfs:label "Q16669638" ;
+    sem:eventType wd:Q124734 ;
+    sem:hasPlace wd:Q914050 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q200749 a sem:Event ;
+    rdfs:label "Day of the Tiles" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q1289,
+        wd:Q142 ;
+    sem:hasTimeStamp "1788-06-07"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2055515 a sem:Event ;
+    rdfs:label "Federalist revolts" ;
+    sem:eventType wd:Q124734 ;
+    sem:subEventOf wd:Q18817,
+        wd:Q6534 .
+
+wd:Q2059874 a sem:Event ;
+    rdfs:label "Infernal columns" ;
+    sem:eventType wd:Q645883 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q249960 a sem:Event ;
+    rdfs:label "Chouannerie" ;
+    sem:eventType wd:Q8465 ;
+    sem:hasActor ex:role_inst_100,
+        ex:role_inst_101,
+        ex:role_inst_102,
+        ex:role_inst_103,
+        ex:role_inst_104,
+        ex:role_inst_105,
+        ex:role_inst_106,
+        ex:role_inst_107,
+        ex:role_inst_108,
+        ex:role_inst_109,
+        ex:role_inst_110,
+        ex:role_inst_111,
+        ex:role_inst_112,
+        ex:role_inst_113,
+        ex:role_inst_114,
+        ex:role_inst_115,
+        ex:role_inst_116,
+        ex:role_inst_117,
+        ex:role_inst_118 ;
+    sem:hasBeginTimeStamp "1794-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1800-01-01"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q15878,
+        wd:Q327,
+        wd:Q732738 ;
+    sem:hasTimeStamp "1794-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q207318,
+        wd:Q6534 .
+
+wd:Q2622002 a sem:Event ;
+    rdfs:label "abolition of feudalism in France" ;
+    sem:eventType wd:Q322732 ;
+    sem:hasTimeStamp "1789-08-04"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2935567 a sem:Event ;
+    rdfs:label "Q2935567" ;
+    sem:eventType wd:Q1190554 ;
+    sem:hasBeginTimeStamp "1790-08-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1790-07-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q3062411 a sem:Event ;
+    rdfs:label "Saint-Domingue expedition" ;
+    sem:eventType wd:Q180684,
+        wd:Q2401485 ;
+    sem:hasActor ex:role_inst_134,
+        ex:role_inst_135,
+        ex:role_inst_136,
+        ex:role_inst_137,
+        ex:role_inst_138,
+        ex:role_inst_139,
+        ex:role_inst_140,
+        ex:role_inst_141,
+        ex:role_inst_142,
+        ex:role_inst_143,
+        ex:role_inst_144,
+        ex:role_inst_145,
+        ex:role_inst_146 ;
+    sem:hasPlace wd:Q790,
+        wd:Q861551 ;
+    sem:hasTimeStamp "1801-12-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534,
+        wd:Q689128 .
+
+wd:Q3062714 a sem:Event ;
+    rdfs:label "execution of Louis XVI" ;
+    sem:eventType wd:Q10855380,
+        wd:Q204933 ;
+    sem:hasPlace wd:Q142,
+        wd:Q58296 ;
+    sem:hasTimeStamp "1793-01-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P155 wd:Q430135 .
+
+wd:Q3152958 a sem:Event ;
+    rdfs:label "Insurrection of 12 Germinal, Year III" ;
+    sem:eventType wd:Q180684 ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1795-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q3297481 a sem:Event ;
+    rdfs:label "massacres of La Glacière" ;
+    sem:eventType wd:Q3199915 ;
+    sem:hasPlace wd:Q142,
+        wd:Q143463 ;
+    sem:hasTimeStamp "1791-10-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q370029 a sem:Event ;
+    rdfs:label "Great Fear" ;
+    sem:eventType wd:Q3377832 ;
+    sem:hasBeginTimeStamp "1789-07-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-08-06"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q5242918 a sem:Event ;
+    rdfs:label "Day of Daggers" ;
+    sem:hasActor ex:role_inst_147,
+        ex:role_inst_148,
+        ex:role_inst_149 ;
+    sem:hasPlace wd:Q142,
+        wd:Q193819,
+        wd:Q234364 ;
+    sem:hasTimeStamp "1791-02-28"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q5454077 a sem:Event ;
+    rdfs:label "First White Terror" ;
+    sem:eventType wd:Q1899269 ;
+    sem:hasPlace wd:Q142,
+        wd:Q2747791 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q58178441 a sem:Event ;
+    rdfs:label "White Terror" ;
+    sem:eventType wd:Q11514315 ;
+    sem:subEventOf wd:Q207162,
+        wd:Q6534 .
+
+wd:Q599663 a sem:Event ;
+    rdfs:label "Virée de Galerne" ;
+    sem:eventType wd:Q831663 ;
+    sem:hasActor ex:role_inst_119,
+        ex:role_inst_120,
+        ex:role_inst_121 ;
+    sem:hasBeginTimeStamp "1793-10-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace wd:Q12584,
+        wd:Q15878,
+        wd:Q327,
+        wd:Q732738 ;
+    sem:hasTimeStamp "1793-12-23"^^xsd:date ;
+    sem:subEventOf wd:Q6534,
+        wd:Q8628 .
+
+wd:Q60022 a sem:Event ;
+    rdfs:label "Tennis Court Oath" ;
+    sem:eventType wd:Q1190554 ;
+    sem:hasPlace wd:Q70972,
+        wd:Q805255 ;
+    sem:hasTimeStamp "1789-06-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q642021 a sem:Event ;
+    rdfs:label "Demonstration of 20 June 1792" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1792-06-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q6539 a sem:Event ;
+    rdfs:label "Storming of the Bastille" ;
+    sem:eventType wd:Q104708121 ;
+    sem:hasActor ex:role_inst_1,
+        ex:role_inst_188,
+        ex:role_inst_189,
+        ex:role_inst_2,
+        ex:role_inst_3,
+        ex:role_inst_4,
+        ex:role_inst_5 ;
+    sem:hasPlace wd:Q13917,
+        wd:Q142,
+        wd:Q70972,
+        wd:Q90 ;
+    sem:hasTimeStamp "1789-07-14"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q720498 a sem:Event ;
+    rdfs:label "13 Vendémiaire" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasActor ex:role_inst_122,
+        ex:role_inst_123,
+        ex:role_inst_124,
+        ex:role_inst_125 ;
+    sem:hasPlace wd:Q58296,
+        wd:Q90 ;
+    sem:hasTimeStamp "1795-10-05"^^xsd:date ;
+    sem:subEventOf wd:Q18817,
+        wd:Q6534 .
+
+wd:Q862586 a sem:Event ;
+    rdfs:label "September Massacres" ;
+    sem:eventType wd:Q750215 ;
+    sem:hasActor ex:role_inst_126 ;
+    sem:hasBeginTimeStamp "1792-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-07"^^xsd:date ;
+    sem:hasPlace wd:Q138101,
+        wd:Q207620,
+        wd:Q212420,
+        wd:Q23482,
+        wd:Q271072,
+        wd:Q2983806,
+        wd:Q3142856,
+        wd:Q3292048,
+        wd:Q3403987,
+        wd:Q41185,
+        wd:Q41876,
+        wd:Q44160,
+        wd:Q456,
+        wd:Q621,
+        wd:Q673526,
+        wd:Q71724,
+        wd:Q856882,
+        wd:Q939883,
+        wd:Q960165 ;
+    sem:subEventOf wd:Q6534 .
+
+ex:role_inst_1 a sem:Role ;
+    dbo:alongside ex:role_inst_2,
+        ex:role_inst_3 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q6534 .
+
+ex:role_inst_100 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1421530 .
+
+ex:role_inst_101 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3167953 .
+
+ex:role_inst_102 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q923127 .
+
+ex:role_inst_103 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q319302 .
+
+ex:role_inst_104 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q367042 .
+
+ex:role_inst_105 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2474206 .
+
+ex:role_inst_106 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q318790 .
+
+ex:role_inst_107 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3094021 .
+
+ex:role_inst_108 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3386726 .
+
+ex:role_inst_109 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2414962 .
+
+ex:role_inst_110 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q555304 .
+
+ex:role_inst_111 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1410644 .
+
+ex:role_inst_112 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1960408 .
+
+ex:role_inst_113 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2828088 .
+
+ex:role_inst_114 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3263455 .
+
+ex:role_inst_115 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3385370 .
+
+ex:role_inst_116 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q475587 .
+
+ex:role_inst_117 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q712895 .
+
+ex:role_inst_118 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2861985 .
+
+ex:role_inst_119 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1192988 .
+
+ex:role_inst_120 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2290419 .
+
+ex:role_inst_121 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q15149813 .
+
+ex:role_inst_122 a sem:Role ;
+    dbo:alongside ex:role_inst_123,
+        ex:role_inst_124 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q58296 .
+
+ex:role_inst_125 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q943197 .
+
+ex:role_inst_126 a sem:Role ;
+    sem:roleType wd:P664 ;
+    rdf:value wd:Q829721 .
+
+ex:role_inst_127 a sem:Role ;
+    dbo:alongside ex:role_inst_128,
+        ex:role_inst_129,
+        ex:role_inst_130 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q58296 .
+
+ex:role_inst_131 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q7732 .
+
+ex:role_inst_132 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q320453 .
+
+ex:role_inst_133 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q121379 .
+
+ex:role_inst_134 a sem:Role ;
+    dbo:alongside ex:role_inst_135,
+        ex:role_inst_136,
+        ex:role_inst_137,
+        ex:role_inst_138,
+        ex:role_inst_139,
+        ex:role_inst_140 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q58296 .
+
+ex:role_inst_141 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2102497 .
+
+ex:role_inst_142 a sem:Role ;
+    dbo:alongside ex:role_inst_143,
+        ex:role_inst_144,
+        ex:role_inst_145,
+        ex:role_inst_146 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q174193 .
+
+ex:role_inst_147 a sem:Role ;
+    dbo:alongside ex:role_inst_148 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1059047 .
+
+ex:role_inst_149 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q586505 .
+
+ex:role_inst_150 a sem:Role ;
+    dbo:alongside ex:role_inst_151,
+        ex:role_inst_152,
+        ex:role_inst_153,
+        ex:role_inst_154,
+        ex:role_inst_155 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1092773 .
+
+ex:role_inst_156 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q219825 .
+
+ex:role_inst_157 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1059047 .
+
+ex:role_inst_158 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1391619 .
+
+ex:role_inst_159 a sem:Role ;
+    dbo:alongside ex:role_inst_160,
+        ex:role_inst_161,
+        ex:role_inst_162,
+        ex:role_inst_163,
+        ex:role_inst_164 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q179885 .
+
+ex:role_inst_165 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q208412 .
+
+ex:role_inst_166 a sem:Role ;
+    dbo:alongside ex:role_inst_167,
+        ex:role_inst_168,
+        ex:role_inst_169,
+        ex:role_inst_170,
+        ex:role_inst_171,
+        ex:role_inst_172,
+        ex:role_inst_173 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1249756 .
+
+ex:role_inst_174 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q208412 .
+
+ex:role_inst_175 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q820122 .
+
+ex:role_inst_176 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1474268 .
+
+ex:role_inst_177 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1343705 .
+
+ex:role_inst_178 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1059047 .
+
+ex:role_inst_179 a sem:Role ;
+    dbo:alongside ex:role_inst_180,
+        ex:role_inst_181,
+        ex:role_inst_182,
+        ex:role_inst_183,
+        ex:role_inst_184,
+        ex:role_inst_185,
+        ex:role_inst_186 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q219825 .
+
+ex:role_inst_187 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q207776 .
+
+ex:role_inst_188 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q70972 .
+
+ex:role_inst_189 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q1059047 .
+
+ex:role_inst_190 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q266923 .
+
+ex:role_inst_191 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q150058 .
+
+ex:role_inst_192 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q165154 .
+
+ex:role_inst_193 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q12548 .
+
+ex:role_inst_194 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q173065 .
+
+ex:role_inst_195 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q34266 .
+
+ex:role_inst_196 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q2984260 .
+
+ex:role_inst_197 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q170072 .
+
+ex:role_inst_198 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q70972 .
+
+ex:role_inst_199 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q27306 .
+
+ex:role_inst_200 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q12560 .
+
+ex:role_inst_201 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q161885 .
+
+ex:role_inst_202 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q30 .
+
+ex:role_inst_203 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q62651 .
+
+ex:role_inst_204 a sem:Role ;
+    sem:roleType wd:Q56512863 ;
+    rdf:value wd:Q517 .
+
+ex:role_inst_205 a sem:Role ;
+    sem:roleType wd:P112 ;
+    rdf:value wd:Q44197 .
+
+ex:role_inst_4 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1079501 .
+
+ex:role_inst_5 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q822225 .
+
+ex:role_inst_51 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1405556 .
+
+ex:role_inst_52 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q699964 .
+
+ex:role_inst_53 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q667080 .
+
+ex:role_inst_54 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q83536 .
+
+ex:role_inst_55 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q80702 .
+
+ex:role_inst_56 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q187549 .
+
+ex:role_inst_57 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q233 .
+
+ex:role_inst_58 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q45670 .
+
+ex:role_inst_59 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q1435724 .
+
+ex:role_inst_6 a sem:Role ;
+    sem:roleType wd:P664 ;
+    rdf:value wd:Q724922 .
+
+ex:role_inst_60 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q517 .
+
+ex:role_inst_61 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q6581823 .
+
+ex:role_inst_62 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q568387 .
+
+ex:role_inst_63 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q861551 .
+
+ex:role_inst_64 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q689128 .
+
+ex:role_inst_65 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q655480 .
+
+ex:role_inst_66 a sem:Role ;
+    dbo:alongside ex:role_inst_67,
+        ex:role_inst_68,
+        ex:role_inst_69,
+        ex:role_inst_70,
+        ex:role_inst_71,
+        ex:role_inst_72,
+        ex:role_inst_73,
+        ex:role_inst_74,
+        ex:role_inst_75,
+        ex:role_inst_76,
+        ex:role_inst_77,
+        ex:role_inst_78,
+        ex:role_inst_79,
+        ex:role_inst_80,
+        ex:role_inst_81,
+        ex:role_inst_82,
+        ex:role_inst_83 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q69323 .
+
+ex:role_inst_7 a sem:Role ;
+    dbo:alongside ex:role_inst_10,
+        ex:role_inst_11,
+        ex:role_inst_12,
+        ex:role_inst_13,
+        ex:role_inst_14,
+        ex:role_inst_15,
+        ex:role_inst_16,
+        ex:role_inst_17,
+        ex:role_inst_18,
+        ex:role_inst_19,
+        ex:role_inst_20,
+        ex:role_inst_21,
+        ex:role_inst_22,
+        ex:role_inst_23,
+        ex:role_inst_24,
+        ex:role_inst_25,
+        ex:role_inst_26,
+        ex:role_inst_27,
+        ex:role_inst_28,
+        ex:role_inst_29,
+        ex:role_inst_30,
+        ex:role_inst_31,
+        ex:role_inst_32,
+        ex:role_inst_33,
+        ex:role_inst_34,
+        ex:role_inst_35,
+        ex:role_inst_36,
+        ex:role_inst_37,
+        ex:role_inst_38,
+        ex:role_inst_39,
+        ex:role_inst_40,
+        ex:role_inst_41,
+        ex:role_inst_42,
+        ex:role_inst_43,
+        ex:role_inst_44,
+        ex:role_inst_45,
+        ex:role_inst_46,
+        ex:role_inst_47,
+        ex:role_inst_48,
+        ex:role_inst_49,
+        ex:role_inst_50,
+        ex:role_inst_8,
+        ex:role_inst_9 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2290419 .
+
+ex:role_inst_84 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q58296 .
+
+ex:role_inst_85 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q188553 .
+
+ex:role_inst_86 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2712121 .
+
+ex:role_inst_87 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2102497 .
+
+ex:role_inst_88 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q206696 .
+
+ex:role_inst_89 a sem:Role ;
+    dbo:alongside ex:role_inst_90,
+        ex:role_inst_91,
+        ex:role_inst_92,
+        ex:role_inst_93,
+        ex:role_inst_94 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q219817 .
+
+ex:role_inst_95 a sem:Role ;
+    dbo:alongside ex:role_inst_96,
+        ex:role_inst_97,
+        ex:role_inst_98 ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q2325988 .
+
+ex:role_inst_99 a sem:Role ;
+    sem:roleType wd:Q1414937 ;
+    rdf:value wd:Q617290 .
+
+wd:P112 a sem:RoleType ;
+    rdfs:label "founded by" .
+
+wd:Q104708121 a sem:EventType ;
+    rdfs:label "storming" .
+
+wd:Q107483093 a sem:Event ;
+    rdfs:label "Q107483093" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasBeginTimeStamp "1789-07-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P156 wd:Q3577291 .
+
+wd:Q1079501 a sem:Actor ;
+    rdfs:label "Gardes Françaises" .
+
+wd:Q10855380 a sem:EventType ;
+    rdfs:label "public execution" .
+
+wd:Q1092773 a sem:Actor ;
+    rdfs:label "Thermidorians" .
+
+wd:Q1096714 a sem:Actor ;
+    rdfs:label "Claude Fauchet (revolutionist)" .
+
+wd:Q112009 a sem:Actor ;
+    rdfs:label "Michael von Melas" .
+
+wd:Q1122980 rdfs:label "Comtat Venaissin" .
+
+wd:Q1152832 a sem:Actor ;
+    rdfs:label "Louis Thomas Villaret de Joyeuse" .
+
+wd:Q1154330 a sem:Event ;
+    rdfs:label "10 August insurrection",
+        "Insurrection of 10 August 1792" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasActor ex:role_inst_127,
+        ex:role_inst_128,
+        ex:role_inst_129,
+        ex:role_inst_130,
+        ex:role_inst_131,
+        ex:role_inst_132,
+        ex:role_inst_133 ;
+    sem:hasPlace wd:Q13917,
+        wd:Q142,
+        wd:Q234364,
+        wd:Q70972,
+        wd:Q90 ;
+    sem:hasTimeStamp "1792-08-10"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q11806 a sem:Actor ;
+    rdfs:label "John Adams" .
+
+wd:Q1192988 a sem:Actor ;
+    rdfs:label "French Revolutionary Army" .
+
+wd:Q121379 a sem:Actor ;
+    rdfs:label "Karl Josef von Bachmann" .
+
+wd:Q122290 a sem:Actor ;
+    rdfs:label "Jean-Paul Marat" .
+
+wd:Q1239 a sem:Place ;
+    rdfs:label "Indian Ocean" .
+
+wd:Q1249756 a sem:Actor,
+        sem:Event ;
+    rdfs:label "Paris Commune",
+        "Paris Commune (1789-1795)" ;
+    sem:eventType wd:Q56061,
+        wd:Q7188 ;
+    sem:hasBeginTimeStamp "1789-07-20"^^xsd:date,
+        "1790-05-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-08-22"^^xsd:date ;
+    sem:hasPlace wd:Q142 ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P156 wd:Q2845944 .
+
+wd:Q12548 a sem:Actor ;
+    rdfs:label "Holy Roman Empire" .
+
+wd:Q12560 a sem:Actor ;
+    rdfs:label "Ottoman Empire" .
+
+wd:Q12584 a sem:Place ;
+    rdfs:label "Maine-et-Loire" ;
+    sem:placeType wd:P276 .
+
+wd:Q127318 a sem:Actor ;
+    rdfs:label "George III" .
+
+wd:Q1275961 rdfs:label "Cult of Reason" .
+
+wd:Q1289 a sem:Place ;
+    rdfs:label "Grenoble" ;
+    sem:placeType wd:P131 .
+
+wd:Q128902 a sem:Actor ;
+    rdfs:label "William Pitt the Younger" .
+
+wd:Q130834 a sem:Actor ;
+    rdfs:label "Francis II, Holy Roman Emperor" .
+
+wd:Q13418847 a sem:EventType ;
+    rdfs:label "historical event" .
+
+wd:Q1343705 a sem:Actor ;
+    rdfs:label "Enragés" .
+
+wd:Q1344594 a sem:Actor ;
+    rdfs:label "Maximin Isnard" .
+
+wd:Q1376893 a sem:Actor ;
+    rdfs:label "Alexander Korsakov" .
+
+wd:Q138101 a sem:Place ;
+    rdfs:label "Conciergerie" ;
+    sem:placeType wd:P276 .
+
+wd:Q138648 a sem:Place ;
+    rdfs:label "Maubeuge" ;
+    sem:placeType wd:P276 .
+
+wd:Q1389040 a sem:Actor ;
+    rdfs:label "Sidney Smith (Royal Navy officer)" .
+
+wd:Q1391619 a sem:Actor ;
+    rdfs:label "Committee of General Security" .
+
+wd:Q1405556 a sem:Actor ;
+    rdfs:label "Armée des émigrés" .
+
+wd:Q1406161 a sem:EventType ;
+    rdfs:label "artistic theme" .
+
+wd:Q1410644 a sem:Actor ;
+    rdfs:label "Joseph de Puisaye" .
+
+wd:Q1421530 a sem:Actor ;
+    rdfs:label "Jean Baptiste Camille Canclaux" .
+
+wd:Q1430466 a sem:EventType ;
+    rdfs:label "escape" .
+
+wd:Q143463 a sem:Place ;
+    rdfs:label "Palais des Papes" ;
+    sem:placeType wd:P276 .
+
+wd:Q1435724 a sem:Actor ;
+    rdfs:label "List of historic states of Italy#Italy in the year 1748" .
+
+wd:Q1450903 a sem:Actor ;
+    rdfs:label "François-Marie Barthélemy" .
+
+wd:Q1474268 a sem:Actor ;
+    rdfs:label "Hébertists" .
+
+wd:Q150058 a sem:Actor ;
+    rdfs:label "Thiruvithamkoor Maharajyam" .
+
+wd:Q15053704 a sem:Event ;
+    rdfs:label "Coalition Wars" .
+
+wd:Q15149813 a sem:Actor ;
+    rdfs:label "Chouans" .
+
+wd:Q15189 a sem:Actor ;
+    rdfs:label "Paul I of Russia" .
+
+wd:Q152229 a sem:Actor ;
+    rdfs:label "Frederick William II of Prussia" .
+
+wd:Q154232 a sem:Actor ;
+    rdfs:label "Alexander Suvorov" .
+
+wd:Q157070 rdfs:label "County of Flanders" .
+
+wd:Q1572600 a sem:EventType ;
+    rdfs:label "proclamation" .
+
+wd:Q158027 a sem:Actor ;
+    rdfs:label "Jan Henryk Dąbrowski" .
+
+wd:Q158835 rdfs:label "Prince-Bishopric of Liège" .
+
+wd:Q159856 rdfs:label "Duchy of Brabant" .
+
+wd:Q161885 a sem:Actor ;
+    rdfs:label "Great Britain" .
+
+wd:Q1637092 a sem:Actor ;
+    rdfs:label "Michelangelo Alessandro Colli-Marchi" .
+
+wd:Q165154 a sem:Actor ;
+    rdfs:label "Kingdom of Sardinia" .
+
+wd:Q1685535 a sem:Actor ;
+    rdfs:label "Jean-François Reubell" .
+
+wd:Q170072 a sem:Actor ;
+    rdfs:label "Dutch Republic" .
+
+wd:Q17152708 a sem:EventType ;
+    rdfs:label "republic regime in France" .
+
+wd:Q173065 a sem:Actor ;
+    rdfs:label "Kingdom of Naples" .
+
+wd:Q174193 a sem:Actor ;
+    rdfs:label "United Kingdom of Great Britain and Ireland" .
+
+wd:Q174306 a sem:Event ;
+    rdfs:label "Republic of Genoa" ;
+    sem:eventType wd:Q3024240,
+        wd:Q3624078,
+        wd:Q43185013,
+        wd:Q79751 ;
+    sem:hasBeginTimeStamp "1005-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-06-14"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q38,
+        wd:Q46 ;
+    wd:P155 wd:Q838931 ;
+    wd:P361 wd:Q174306 ;
+    wd:Q107995509 wd:Q659312 .
+
+wd:Q1752346 a sem:EventType ;
+    rdfs:label "assembly" .
+
+wd:Q179885 a sem:Actor ;
+    rdfs:label "Jacobins" .
+
+wd:Q183226 a sem:Actor ;
+    rdfs:label "Charles IV of Spain" .
+
+wd:Q1849340 a sem:Actor ;
+    rdfs:label "Pieter Corbeels" .
+
+wd:Q186652 a sem:Actor ;
+    rdfs:label "Marquis de Lafayette" .
+
+wd:Q1871443 a sem:Actor ;
+    rdfs:label "Louis Marie de La Révellière-Lépeaux" .
+
+wd:Q187549 a sem:Actor ;
+    rdfs:label "Knights Hospitaller" .
+
+wd:Q188055 a sem:EventType ;
+    rdfs:label "siege" .
+
+wd:Q188553 a sem:Actor ;
+    rdfs:label "Batavian Republic" .
+
+wd:Q1899269 a sem:EventType ;
+    rdfs:label "political repression" .
+
+wd:Q193547 a sem:Event ;
+    rdfs:label "Reign of Terror" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasActor ex:role_inst_6 ;
+    sem:hasBeginTimeStamp "1793-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-07-28"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q58296 ;
+    sem:subEventOf wd:Q6534 ;
+    allen:intervalBefore wd:Q474757 .
+
+wd:Q193819 a sem:Place ;
+    rdfs:label "Vincennes" .
+
+wd:Q1945833 a sem:Actor ;
+    rdfs:label "Laurens Pieter van de Spiegel" .
+
+wd:Q198 a sem:EventType ;
+    rdfs:label "war" .
+
+wd:Q199633 a sem:Actor ;
+    rdfs:label "Selim III" .
+
+wd:Q20127274 a sem:EventType ;
+    rdfs:label "certain aspects of a person's life" .
+
+wd:Q204933 a sem:EventType ;
+    rdfs:label "decapitation" .
+
+wd:Q206696 a sem:Actor ;
+    rdfs:label "Helvetic Republic" .
+
+wd:Q207162 a sem:Event ;
+    rdfs:label "Bourbon Restoration in France" .
+
+wd:Q207304 a sem:EventType ;
+    rdfs:label "Estates General" .
+
+wd:Q207620 a sem:Place ;
+    rdfs:label "Meaux" ;
+    sem:placeType wd:P276 .
+
+wd:Q207776 a sem:Actor ;
+    rdfs:label "Girondins" .
+
+wd:Q2079957 a sem:Actor ;
+    rdfs:label "William I of the Netherlands" .
+
+wd:Q209901 a sem:Actor ;
+    rdfs:label "Jacques Hébert" .
+
+wd:Q212068 a sem:Actor ;
+    rdfs:label "Jean-Jacques Dessalines" .
+
+wd:Q212420 a sem:Place ;
+    rdfs:label "Sens" ;
+    sem:placeType wd:P276 .
+
+wd:Q213573 a sem:Actor ;
+    rdfs:label "Prince Frederick, Duke of York and Albany" .
+
+wd:Q216958 a sem:Actor ;
+    rdfs:label "Joseph Fouché" .
+
+wd:Q2256846 a sem:Actor ;
+    rdfs:label "Charles-André Merda" .
+
+wd:Q233 a sem:Actor ;
+    rdfs:label "Malta" .
+
+wd:Q23482 a sem:Place ;
+    rdfs:label "Marseille" ;
+    sem:placeType wd:P276 .
+
+wd:Q2374238 a sem:EventType ;
+    rdfs:label "dechristianization in society" .
+
+wd:Q2401485 a sem:EventType ;
+    rdfs:label "expedition" .
+
+wd:Q2414962 a sem:Actor ;
+    rdfs:label "Claude Ursule Gency" .
+
+wd:Q242609 a sem:Actor ;
+    rdfs:label "André Masséna" .
+
+wd:Q2438029 a sem:Actor ;
+    rdfs:label "Antonio Ricardos" .
+
+wd:Q2438470 a sem:Actor ;
+    rdfs:label "Luis Firmín de Carvajal, Conde de la Unión" .
+
+wd:Q2453214 a sem:Actor ;
+    rdfs:label "Jazzar Pasha" .
+
+wd:Q250003 a sem:Actor ;
+    rdfs:label "Jean-Baptiste Jourdan" .
+
+wd:Q2531663 a sem:Actor ;
+    rdfs:label "Stanislas-Marie Maillard" .
+
+wd:Q2571972 a sem:EventType ;
+    rdfs:label "decree" .
+
+wd:Q2627975 a sem:EventType ;
+    rdfs:label "ceremony" .
+
+wd:Q2629137 rdfs:label "Free Imperial City of Aachen" .
+
+wd:Q266923 a sem:Actor ;
+    rdfs:label "Kingdom of Mysore" .
+
+wd:Q270668 a sem:Actor ;
+    rdfs:label "Georges Couthon" .
+
+wd:Q271072 a sem:Place ;
+    rdfs:label "Gisors" ;
+    sem:placeType wd:P276 .
+
+wd:Q2712121 a sem:Actor ;
+    rdfs:label "Irish Republic (1798)" .
+
+wd:Q2719360 rdfs:label "Duchy of Luxembourg" .
+
+wd:Q273032 a sem:Actor ;
+    rdfs:label "Jean Lannes" .
+
+wd:Q27306 a sem:Actor ;
+    rdfs:label "Kingdom of Prussia" .
+
+wd:Q2747791 a sem:Place ;
+    rdfs:label "Rhône Valley" ;
+    sem:placeType wd:P276 .
+
+wd:Q27764 a sem:Actor ;
+    rdfs:label "Louis Antoine de Saint-Just" .
+
+wd:Q278399 a sem:Actor ;
+    rdfs:label "Ralph Abercromby" .
+
+wd:Q2828088 a sem:Actor ;
+    rdfs:label "Aimé du Boisguy" .
+
+wd:Q2845944 rdfs:label "former arrondissement of Paris" .
+
+wd:Q2861985 a sem:Actor ;
+    rdfs:label "Charles Armand Tuffin, marquis de la Rouërie" .
+
+wd:Q289550 a sem:Actor ;
+    rdfs:label "étienne Clavière" .
+
+wd:Q2977393 a sem:Actor ;
+    rdfs:label "Claude Fournier (revolutionary)" .
+
+wd:Q2983806 a sem:Place ;
+    rdfs:label "Q2983806" ;
+    sem:placeType wd:P276 .
+
+wd:Q2984260 a sem:Actor ;
+    rdfs:label "Newfoundland Colony" .
+
+wd:Q30 a sem:Actor ;
+    rdfs:label "United States of America" .
+
+wd:Q302454 rdfs:label "Subalpine Republic" .
+
+wd:Q3067308 a sem:Place ;
+    rdfs:label "Saint-Antoine district" ;
+    sem:placeType wd:P276 .
+
+wd:Q3086263 a sem:Actor ;
+    rdfs:label "Jean-François Varlet" .
+
+wd:Q3094021 a sem:Actor ;
+    rdfs:label "Gabriel, comte d'Hédouville" .
+
+wd:Q309460 rdfs:label "County of Hainaut" .
+
+wd:Q312215 a sem:Actor ;
+    rdfs:label "William V, Prince of Orange" .
+
+wd:Q312325 a sem:Actor ;
+    rdfs:label "Ferdinand I of the Two Sicilies" .
+
+wd:Q312577 a sem:Actor ;
+    rdfs:label "Henry Addington, 1st Viscount Sidmouth" .
+
+wd:Q312681 a sem:Actor ;
+    rdfs:label "Victor Amadeus III of Sardinia" .
+
+wd:Q313196 a sem:Actor ;
+    rdfs:label "Louis Desaix" .
+
+wd:Q314135 a sem:Actor ;
+    rdfs:label "Pierre Augereau" .
+
+wd:Q3142856 a sem:Place ;
+    rdfs:label "La Force Prison" ;
+    sem:placeType wd:P276 .
+
+wd:Q314984 a sem:Actor ;
+    rdfs:label "Jacques Pierre Brissot" .
+
+wd:Q3167953 a sem:Actor ;
+    rdfs:label "Jean-Michel Beysser" .
+
+wd:Q3170885 a sem:Actor ;
+    rdfs:label "Jean Boudet" .
+
+wd:Q318790 a sem:Actor ;
+    rdfs:label "Guillaume Brune" .
+
+wd:Q319302 a sem:Actor ;
+    rdfs:label "Jean-Baptiste Kléber" .
+
+wd:Q320453 a sem:Actor ;
+    rdfs:label "Augustin-Joseph de Mailly" .
+
+wd:Q322732 a sem:EventType ;
+    rdfs:label "abolition" .
+
+wd:Q3263455 a sem:Actor ;
+    rdfs:label "Louis de Frotté" .
+
+wd:Q3292048 a sem:Place ;
+    rdfs:label "Prison de l'Abbaye" ;
+    sem:placeType wd:P276 .
+
+wd:Q333806 a sem:Actor ;
+    rdfs:label "Jean Victor Marie Moreau" .
+
+wd:Q3361 a sem:Place ;
+    rdfs:label "Doubs" ;
+    sem:placeType wd:P131 .
+
+wd:Q3377832 a sem:EventType ;
+    rdfs:label "collective fear" .
+
+wd:Q3385370 a sem:Actor ;
+    rdfs:label "Pierre Guillemot" .
+
+wd:Q3385453 a sem:Actor ;
+    rdfs:label "Pierre Henri Hélène Marie Lebrun-Tondu" .
+
+wd:Q3385999 a sem:Actor ;
+    rdfs:label "Pierre-Louis Bentabole" .
+
+wd:Q3386726 a sem:Actor ;
+    rdfs:label "Pierre Quantin" .
+
+wd:Q3403987 a sem:Place ;
+    rdfs:label "Carmes Prison" ;
+    sem:placeType wd:P276 .
+
+wd:Q34266 a sem:Actor ;
+    rdfs:label "Russian Empire" .
+
+wd:Q344816 a sem:Actor ;
+    rdfs:label "Jean-Denis Lanjuinais" .
+
+wd:Q3456410 rdfs:label "Republic of Mulhouse" .
+
+wd:Q353458 a sem:Actor ;
+    rdfs:label "Henri Christophe" .
+
+wd:Q356933 a sem:Actor ;
+    rdfs:label "François Christophe de Kellermann" .
+
+wd:Q35749 a sem:EventType ;
+    rdfs:label "parliament" .
+
+wd:Q3577291 a sem:Event ;
+    rdfs:label "Q3577291" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasBeginTimeStamp "1792-09-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P155 wd:Q107483093 .
+
+wd:Q358757 a sem:Actor ;
+    rdfs:label "François Joseph Westermann" .
+
+wd:Q378572 a sem:Actor ;
+    rdfs:label "Charles François Dumouriez" .
+
+wd:Q38 a sem:Place ;
+    rdfs:label "Italy" ;
+    sem:placeType wd:P17 .
+
+wd:Q40898 a sem:Place ;
+    rdfs:label "Nancy" ;
+    sem:placeType wd:P276 .
+
+wd:Q41185 a sem:Place ;
+    rdfs:label "Caen" ;
+    sem:placeType wd:P276 .
+
+wd:Q41614 a sem:EventType ;
+    rdfs:label "constitutional monarchy" .
+
+wd:Q417175 a sem:EventType ;
+    rdfs:label "kingdom" .
+
+wd:Q41876 a sem:Place ;
+    rdfs:label "Reims" ;
+    sem:placeType wd:P276 .
+
+wd:Q430135 rdfs:label "Trial of Louis XVI" .
+
+wd:Q430775 a sem:Actor ;
+    rdfs:label "Louis Joseph, Prince of Condé" .
+
+wd:Q43185013 a sem:EventType ;
+    rdfs:label "maritime republic" .
+
+wd:Q437198 a sem:Actor ;
+    rdfs:label "Louis-René Levassor de Latouche-Tréville" .
+
+wd:Q437962 a sem:Actor ;
+    rdfs:label "Wolfe Tone" .
+
+wd:Q44160 a sem:Place ;
+    rdfs:label "Toulon" ;
+    sem:placeType wd:P276 .
+
+wd:Q456 a sem:Place ;
+    rdfs:label "Lyon" ;
+    sem:placeType wd:P276 .
+
+wd:Q45670 a sem:Actor ;
+    rdfs:label "Kingdom of Portugal" .
+
+wd:Q464513 a sem:Actor ;
+    rdfs:label "Jean-Lambert Tallien" .
+
+wd:Q475587 a sem:Actor ;
+    rdfs:label "Logonna-Daoulas#Le château de Rosmorduc" .
+
+wd:Q491507 a sem:Place ;
+    rdfs:label "Egypt Eyalet" .
+
+wd:Q503201 a sem:Actor ;
+    rdfs:label "Charles Leclerc (general, born 1772)" .
+
+wd:Q504135 a sem:Actor ;
+    rdfs:label "Jacques-Nicolas Billaud-Varenne" .
+
+wd:Q507083 a sem:Actor ;
+    rdfs:label "Pierre-Augustin Hulin" .
+
+wd:Q511866 a sem:EventType ;
+    rdfs:label "mutiny" .
+
+wd:Q5373953 a sem:Event ;
+    rdfs:label "Emperor of the French" .
+
+wd:Q5401 a sem:Place ;
+    rdfs:label "Eurasia" ;
+    sem:placeType wd:P30 .
+
+wd:Q542474 a sem:Actor ;
+    rdfs:label "Henri de la Rochejaquelein" .
+
+wd:Q5465517 a sem:EventType ;
+    rdfs:label "food riot" .
+
+wd:Q554278 a sem:Actor ;
+    rdfs:label "Augustin Robespierre" .
+
+wd:Q56061 a sem:EventType ;
+    rdfs:label "administrative territorial entity" .
+
+wd:Q561218 a sem:Actor ;
+    rdfs:label "Henri Grégoire" .
+
+wd:Q568387 a sem:Actor ;
+    rdfs:label "Peasants' War (1798)" .
+
+wd:Q58773 a sem:Actor ;
+    rdfs:label "Charles William Ferdinand, Duke of Brunswick" .
+
+wd:Q5935234 a sem:Actor ;
+    rdfs:label "Ignacio María de Álava" .
+
+wd:Q599613 rdfs:label "County of Namur" .
+
+wd:Q602054 a sem:Actor ;
+    rdfs:label "Federico Carlos Gravina y Nápoli" .
+
+wd:Q608030 a sem:Actor ;
+    rdfs:label "József Alvinczi" .
+
+wd:Q621 a sem:Place ;
+    rdfs:label "Versailles" ;
+    sem:placeType wd:P276 .
+
+wd:Q62651 a sem:Actor ;
+    rdfs:label "Denmark–Norway" .
+
+wd:Q638575 rdfs:label "Lordship of Mechelen" .
+
+wd:Q640968 a sem:Place ;
+    rdfs:label "Hôtel de Ville, Paris" .
+
+wd:Q645883 a sem:EventType ;
+    rdfs:label "military operation" .
+
+wd:Q655480 a sem:Actor ;
+    rdfs:label "Quasi-War" .
+
+wd:Q6581823 a sem:Actor ;
+    rdfs:label "Southern Netherlands" .
+
+wd:Q659312 rdfs:label "Ligurian Republic" .
+
+wd:Q664609 a sem:Place ;
+    rdfs:label "Caribbean" .
+
+wd:Q667080 a sem:Actor ;
+    rdfs:label "Peace of Basel" .
+
+wd:Q673526 a sem:Place ;
+    rdfs:label "Grand Châtelet" ;
+    sem:placeType wd:P276 .
+
+wd:Q676301 a sem:Actor ;
+    rdfs:label "John VI of Portugal" .
+
+wd:Q6844727 a sem:Actor ;
+    rdfs:label "Miguel Pereira Forjaz, Count of Feira" .
+
+wd:Q68771 a sem:Actor ;
+    rdfs:label "Prince Josias of Saxe-Coburg-Saalfeld" .
+
+wd:Q696782 a sem:Actor ;
+    rdfs:label "Frederick Louis, Prince of Hohenlohe-Ingelfingen" .
+
+wd:Q697787 rdfs:label "Duchy of Limburg" .
+
+wd:Q699964 a sem:Actor ;
+    rdfs:label "Archduchy of Austria" .
+
+wd:Q706762 a sem:Actor ;
+    rdfs:label "Sir John Duckworth, 1st Baronet" .
+
+wd:Q708732 a sem:Actor ;
+    rdfs:label "François Barbé-Marbois" .
+
+wd:Q708891 a sem:Actor ;
+    rdfs:label "Bertrand Barère" .
+
+wd:Q712895 a sem:Actor ;
+    rdfs:label "Louis-Auguste-Victor, Count de Ghaisnes de Bourmont" .
+
+wd:Q715652 a sem:Actor ;
+    rdfs:label "Murad Bey" .
+
+wd:Q7163 a sem:EventType ;
+    rdfs:label "politics" .
+
+wd:Q71724 a sem:Place ;
+    rdfs:label "Lorient" ;
+    sem:placeType wd:P276 .
+
+wd:Q7188 a sem:EventType ;
+    rdfs:label "government" .
+
+wd:Q7204 a sem:Place ;
+    rdfs:label "Middle East" .
+
+wd:Q723242 a sem:Actor ;
+    rdfs:label "Jacques Cathelineau" .
+
+wd:Q724922 a sem:Actor ;
+    rdfs:label "Committee of Public Safety" .
+
+wd:Q741772 a sem:Actor ;
+    rdfs:label "Herman Willem Daendels" .
+
+wd:Q750215 a sem:EventType ;
+    rdfs:label "mass murder" .
+
+wd:Q7732 a sem:Actor ;
+    rdfs:label "Louis XVI of France" .
+
+wd:Q773874 a sem:Actor ;
+    rdfs:label "Maria I of Portugal" .
+
+wd:Q780457 rdfs:label "Legislative Assembly" .
+
+wd:Q78691 a sem:Actor ;
+    rdfs:label "Dagobert Sigmund von Wurmser" .
+
+wd:Q78696 a sem:Actor ;
+    rdfs:label "François Sébastien Charles Joseph de Croix, Count of Clerfayt" .
+
+wd:Q790 a sem:Place ;
+    rdfs:label "Haiti" ;
+    sem:placeType wd:P276 .
+
+wd:Q79751 a sem:EventType ;
+    rdfs:label "oligarchy" .
+
+wd:Q805255 a sem:Place ;
+    rdfs:label "Salle du Jeu de Paume" ;
+    sem:placeType wd:P276 .
+
+wd:Q80702 a sem:Actor ;
+    rdfs:label "Spanish Empire" .
+
+wd:Q820122 a sem:Actor ;
+    rdfs:label "The Mountain" .
+
+wd:Q822225 a sem:Actor ;
+    rdfs:label "Bernard-René Jourdan de Launay" .
+
+wd:Q829721 a sem:Actor ;
+    rdfs:label "Cordeliers" .
+
+wd:Q831663 a sem:EventType ;
+    rdfs:label "military campaign" .
+
+wd:Q83235 a sem:Actor ;
+    rdfs:label "Horatio Nelson, 1st Viscount Nelson" .
+
+wd:Q83536 a sem:Actor ;
+    rdfs:label "Anglo-Corsican Kingdom" .
+
+wd:Q838931 rdfs:label "Kingdom of Italy" .
+
+wd:Q84201 a sem:Actor ;
+    rdfs:label "Archduke Charles, Duke of Teschen" .
+
+wd:Q8465 a sem:EventType ;
+    rdfs:label "civil war" .
+
+wd:Q856882 a sem:Place ;
+    rdfs:label "Bicêtre" ;
+    sem:placeType wd:P276 .
+
+wd:Q8628 a sem:Event ;
+    rdfs:label "War in the Vendée" .
+
+wd:Q876424 rdfs:label "National Constituent Assembly" .
+
+wd:Q914050 a sem:Place ;
+    rdfs:label "Brie" ;
+    sem:placeType wd:P276 .
+
+wd:Q923127 a sem:Actor ;
+    rdfs:label "Jean Antoine Rossignol" .
+
+wd:Q929103 a sem:Actor ;
+    rdfs:label "Marguerite-élie Guadet" .
+
+wd:Q939883 a sem:Place ;
+    rdfs:label "Pitié-Salpêtrière Hospital" ;
+    sem:placeType wd:P276 .
+
+wd:Q943197 a sem:Actor ;
+    rdfs:label "Royalism" .
+
+wd:Q951768 a sem:Place ;
+    rdfs:label "Château de Vizille" ;
+    sem:placeType wd:P276 .
+
+wd:Q960165 a sem:Place ;
+    rdfs:label "Collège des Bernardins" ;
+    sem:placeType wd:P276 .
+
+wd:Q97 a sem:Place ;
+    rdfs:label "Atlantic Ocean" .
+
+wd:Q971176 a sem:Event ;
+    rdfs:label "French Constitution of 1791" .
+
+ex:role_inst_10 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q542474 .
+
+ex:role_inst_11 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q555304 .
+
+ex:role_inst_12 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1960408 .
+
+ex:role_inst_123 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q333843 .
+
+ex:role_inst_124 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q517 .
+
+ex:role_inst_128 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q586505 .
+
+ex:role_inst_129 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q358757 .
+
+ex:role_inst_13 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q130834 .
+
+ex:role_inst_130 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2977393 .
+
+ex:role_inst_135 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q517 .
+
+ex:role_inst_136 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q503201 .
+
+ex:role_inst_137 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3170885 .
+
+ex:role_inst_138 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1152832 .
+
+ex:role_inst_139 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q437198 .
+
+ex:role_inst_14 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q84201 .
+
+ex:role_inst_140 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q602054 .
+
+ex:role_inst_143 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q205783 .
+
+ex:role_inst_144 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q353458 .
+
+ex:role_inst_145 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q212068 .
+
+ex:role_inst_146 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q706762 .
+
+ex:role_inst_148 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q186652 .
+
+ex:role_inst_15 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q608030 .
+
+ex:role_inst_151 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q333843 .
+
+ex:role_inst_152 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q464513 .
+
+ex:role_inst_153 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q216958 .
+
+ex:role_inst_154 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3385999 .
+
+ex:role_inst_155 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2256846 .
+
+ex:role_inst_16 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q112009 .
+
+ex:role_inst_160 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q44197 .
+
+ex:role_inst_161 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q27764 .
+
+ex:role_inst_162 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q270668 .
+
+ex:role_inst_163 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1003664 .
+
+ex:role_inst_164 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q554278 .
+
+ex:role_inst_167 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1003664 .
+
+ex:role_inst_168 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q122290 .
+
+ex:role_inst_169 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q44197 .
+
+ex:role_inst_17 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q78696 .
+
+ex:role_inst_170 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q209901 .
+
+ex:role_inst_171 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3086263 .
+
+ex:role_inst_172 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q504135 .
+
+ex:role_inst_173 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q708891 .
+
+ex:role_inst_18 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q68771 .
+
+ex:role_inst_180 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q929103 .
+
+ex:role_inst_181 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q561218 .
+
+ex:role_inst_182 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q289550 .
+
+ex:role_inst_183 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q344816 .
+
+ex:role_inst_184 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1344594 .
+
+ex:role_inst_185 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1096714 .
+
+ex:role_inst_186 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q3385453 .
+
+ex:role_inst_19 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q78691 .
+
+ex:role_inst_2 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q507083 .
+
+ex:role_inst_20 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q152229 .
+
+ex:role_inst_21 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q58773 .
+
+ex:role_inst_22 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q696782 .
+
+ex:role_inst_23 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q127318 .
+
+ex:role_inst_24 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q128902 .
+
+ex:role_inst_25 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q312577 .
+
+ex:role_inst_26 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q83235 .
+
+ex:role_inst_27 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q213573 .
+
+ex:role_inst_28 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q278399 .
+
+ex:role_inst_29 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1389040 .
+
+ex:role_inst_3 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2531663 .
+
+ex:role_inst_30 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q183226 .
+
+ex:role_inst_31 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2438029 .
+
+ex:role_inst_32 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2438470 .
+
+ex:role_inst_33 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q312215 .
+
+ex:role_inst_34 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1945833 .
+
+ex:role_inst_35 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2079957 .
+
+ex:role_inst_36 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q312681 .
+
+ex:role_inst_37 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1637092 .
+
+ex:role_inst_38 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q312325 .
+
+ex:role_inst_39 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q199633 .
+
+ex:role_inst_40 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2453214 .
+
+ex:role_inst_41 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q715652 .
+
+ex:role_inst_42 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q676301 .
+
+ex:role_inst_43 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q773874 .
+
+ex:role_inst_44 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q6844727 .
+
+ex:role_inst_45 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q15189 .
+
+ex:role_inst_46 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q154232 .
+
+ex:role_inst_47 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1376893 .
+
+ex:role_inst_48 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1849340 .
+
+ex:role_inst_49 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q205783 .
+
+ex:role_inst_50 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q11806 .
+
+ex:role_inst_67 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q314984 .
+
+ex:role_inst_68 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q44197 .
+
+ex:role_inst_69 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q333843 .
+
+ex:role_inst_70 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q355643 .
+
+ex:role_inst_71 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q250003 .
+
+ex:role_inst_72 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q367042 .
+
+ex:role_inst_73 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q242609 .
+
+ex:role_inst_74 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q273032 .
+
+ex:role_inst_75 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q378572 .
+
+ex:role_inst_76 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q333806 .
+
+ex:role_inst_77 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q356933 .
+
+ex:role_inst_78 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q313196 .
+
+ex:role_inst_79 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q2474206 .
+
+ex:role_inst_8 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q430775 .
+
+ex:role_inst_80 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q5935234 .
+
+ex:role_inst_81 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q741772 .
+
+ex:role_inst_82 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q437962 .
+
+ex:role_inst_83 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q158027 .
+
+ex:role_inst_9 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q723242 .
+
+ex:role_inst_90 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1685535 .
+
+ex:role_inst_91 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1871443 .
+
+ex:role_inst_92 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q333843 .
+
+ex:role_inst_93 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q314135 .
+
+ex:role_inst_94 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q367042 .
+
+ex:role_inst_96 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q1450903 .
+
+ex:role_inst_97 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q355643 .
+
+ex:role_inst_98 a sem:Role ;
+    sem:roleType wd:Q11247470 ;
+    rdf:value wd:Q708732 .
+
+wd:P30 a sem:PlaceType ;
+    rdfs:label "continent" .
+
+wd:P664 a sem:RoleType ;
+    rdfs:label "organizer" .
+
+wd:Q1003664 a sem:Actor ;
+    rdfs:label "François Hanriot" .
+
+wd:Q1347313 a sem:Event ;
+    rdfs:label "Constitution of the Year VIII" ;
+    allen:intervalBefore wd:Q207318 .
+
+wd:Q13917 a sem:Place ;
+    rdfs:label "Île-de-France" .
+
+wd:Q15878 a sem:Place ;
+    rdfs:label "Normandy" .
+
+wd:Q18817 a sem:Event ;
+    rdfs:label "War of the First Coalition" .
+
+wd:Q1960408 a sem:Actor ;
+    rdfs:label "Jean Chouan" .
+
+wd:Q205783 a sem:Actor ;
+    rdfs:label "Toussaint Louverture" .
+
+wd:Q208412 a sem:Actor ;
+    rdfs:label "Sans-culottes" .
+
+wd:Q2102497 a sem:Actor ;
+    rdfs:label "Polish Legions (Napoleonic period)" .
+
+wd:Q217925 a sem:Place ;
+    rdfs:label "Champ de Mars",
+        "Champ-de-Mars" ;
+    sem:placeType wd:P276 .
+
+wd:Q219817 a sem:Actor,
+        sem:Event ;
+    rdfs:label "French Directory" ;
+    sem:eventType wd:Q2523556,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1795-11-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-11-09"^^xsd:date ;
+    sem:hasPlace wd:Q58296 ;
+    sem:subEventOf wd:Q6534 ;
+    allen:intervalDuring wd:Q2523556 ;
+    wd:P1365 wd:Q219825 ;
+    wd:P156 wd:Q877619 ;
+    wd:Q107995509 wd:Q877619 .
+
+wd:Q2264242 a sem:Event ;
+    rdfs:label "Proclamation of the abolition of the monarchy",
+        "proclamation of the abolition of the monarchy" ;
+    sem:eventType wd:Q13418847,
+        wd:Q1406161,
+        wd:Q1572600,
+        wd:Q2571972 ;
+    sem:hasTimeStamp "1792-09-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2290419 a sem:Actor ;
+    rdfs:label "Armée catholique et royale",
+        "Catholic and Royal Army" .
+
+wd:Q2325988 a sem:Actor ;
+    rdfs:label "Council of Ancients" .
+
+wd:Q234364 a sem:Place ;
+    rdfs:label "Tuileries",
+        "Tuileries Palace" ;
+    sem:placeType wd:P276 .
+
+wd:Q2474206 a sem:Actor ;
+    rdfs:label "Jean Joseph Amable Humbert" .
+
+wd:Q248033 a sem:Event ;
+    rdfs:label "Coup of 18 Fructidor" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasActor ex:role_inst_89,
+        ex:role_inst_90,
+        ex:role_inst_91,
+        ex:role_inst_92,
+        ex:role_inst_93,
+        ex:role_inst_94,
+        ex:role_inst_95,
+        ex:role_inst_96,
+        ex:role_inst_97,
+        ex:role_inst_98,
+        ex:role_inst_99 ;
+    sem:hasPlace wd:Q58296,
+        wd:Q90 ;
+    sem:hasTimeStamp "1797-09-04"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    allen:intervalBefore wd:Q2998928 .
+
+wd:Q2523556 a sem:Event,
+        sem:EventType ;
+    rdfs:label "Directorial system",
+        "directorial system" .
+
+wd:Q2998928 a sem:Event ;
+    rdfs:label "Coup of 30 Prairial VII",
+        "Coup of 30 Prairial Year VII" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasBeginTimeStamp "1799-06-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-18"^^xsd:date ;
+    sem:hasPlace wd:Q58296 ;
+    sem:hasTimeStamp "1799-06-18"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    allen:intervalBefore wd:Q620965 .
+
+wd:Q3199915 a sem:EventType ;
+    rdfs:label "massacre" .
+
+wd:Q327 a sem:Place ;
+    rdfs:label "Brittany" ;
+    sem:placeType wd:P276 .
+
+wd:Q355643 a sem:Actor ;
+    rdfs:label "Charles Pichegru",
+        "Jean-Charles Pichegru" .
+
+wd:Q474757 a sem:Event ;
+    rdfs:label "Thermidorean Reaction",
+        "Thermidorian Reaction" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasBeginTimeStamp "1794-07-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-26"^^xsd:date ;
+    sem:hasPlace wd:Q90 ;
+    sem:subEventOf wd:Q219825 ;
+    allen:intervalBefore wd:Q664271 .
+
+wd:Q555304 a sem:Actor ;
+    rdfs:label "Georges Cadoudal" .
+
+wd:Q586505 a sem:Actor ;
+    rdfs:label "Antoine Joseph Santerre" .
+
+wd:Q617290 a sem:Actor ;
+    rdfs:label "Council of Five Hundred" .
+
+wd:Q620965 a sem:Event ;
+    rdfs:label "Coup of 18 Brumaire",
+        "coup of 18 Brumaire" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasActor ex:role_inst_204 ;
+    sem:hasPlace wd:Q58296 ;
+    sem:hasTimeStamp "1799-11-09"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    allen:intervalBefore wd:Q1347313 ;
+    wd:P1542 wd:Q877619 .
+
+wd:Q664271 a sem:Event ;
+    rdfs:label "Constitution of the Year III" ;
+    allen:intervalBefore wd:Q248033 .
+
+wd:Q689128 a sem:Actor,
+        sem:Event ;
+    rdfs:label "Haitian Revolution" .
+
+wd:Q71084 rdfs:label "First French Empire" .
+
+wd:Q732738 a sem:Place ;
+    rdfs:label "Maine (province)" .
+
+wd:Q861551 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Saint-Domingue" ;
+    sem:placeType wd:P276 .
+
+wd:P131 a sem:PlaceType ;
+    rdfs:label "located in the administrative territorial entity" .
+
+wd:Q124734 a sem:EventType ;
+    rdfs:label "rebellion" .
+
+wd:Q3624078 a sem:EventType ;
+    rdfs:label "sovereign state" .
+
+wd:Q367042 a sem:Actor ;
+    rdfs:label "Lazare Hoche" .
+
+wd:P17 a sem:PlaceType ;
+    rdfs:label "country" .
+
+wd:Q1059047 a sem:Actor ;
+    rdfs:label "National Guard",
+        "National Guard (France)" .
+
+wd:Q1190554 a sem:EventType ;
+    rdfs:label "occurrence" .
+
+wd:Q180684 a sem:EventType ;
+    rdfs:label "conflict" .
+
+wd:Q207318 a sem:Event ;
+    rdfs:label "French Revolutionary Wars" ;
+    sem:eventType wd:Q198 ;
+    sem:hasActor ex:role_inst_10,
+        ex:role_inst_11,
+        ex:role_inst_12,
+        ex:role_inst_13,
+        ex:role_inst_14,
+        ex:role_inst_15,
+        ex:role_inst_16,
+        ex:role_inst_17,
+        ex:role_inst_18,
+        ex:role_inst_19,
+        ex:role_inst_190,
+        ex:role_inst_191,
+        ex:role_inst_192,
+        ex:role_inst_193,
+        ex:role_inst_194,
+        ex:role_inst_195,
+        ex:role_inst_196,
+        ex:role_inst_197,
+        ex:role_inst_198,
+        ex:role_inst_199,
+        ex:role_inst_20,
+        ex:role_inst_200,
+        ex:role_inst_201,
+        ex:role_inst_202,
+        ex:role_inst_203,
+        ex:role_inst_21,
+        ex:role_inst_22,
+        ex:role_inst_23,
+        ex:role_inst_24,
+        ex:role_inst_25,
+        ex:role_inst_26,
+        ex:role_inst_27,
+        ex:role_inst_28,
+        ex:role_inst_29,
+        ex:role_inst_30,
+        ex:role_inst_31,
+        ex:role_inst_32,
+        ex:role_inst_33,
+        ex:role_inst_34,
+        ex:role_inst_35,
+        ex:role_inst_36,
+        ex:role_inst_37,
+        ex:role_inst_38,
+        ex:role_inst_39,
+        ex:role_inst_40,
+        ex:role_inst_41,
+        ex:role_inst_42,
+        ex:role_inst_43,
+        ex:role_inst_44,
+        ex:role_inst_45,
+        ex:role_inst_46,
+        ex:role_inst_47,
+        ex:role_inst_48,
+        ex:role_inst_49,
+        ex:role_inst_50,
+        ex:role_inst_51,
+        ex:role_inst_52,
+        ex:role_inst_53,
+        ex:role_inst_54,
+        ex:role_inst_55,
+        ex:role_inst_56,
+        ex:role_inst_57,
+        ex:role_inst_58,
+        ex:role_inst_59,
+        ex:role_inst_60,
+        ex:role_inst_61,
+        ex:role_inst_62,
+        ex:role_inst_63,
+        ex:role_inst_64,
+        ex:role_inst_65,
+        ex:role_inst_66,
+        ex:role_inst_67,
+        ex:role_inst_68,
+        ex:role_inst_69,
+        ex:role_inst_7,
+        ex:role_inst_70,
+        ex:role_inst_71,
+        ex:role_inst_72,
+        ex:role_inst_73,
+        ex:role_inst_74,
+        ex:role_inst_75,
+        ex:role_inst_76,
+        ex:role_inst_77,
+        ex:role_inst_78,
+        ex:role_inst_79,
+        ex:role_inst_8,
+        ex:role_inst_80,
+        ex:role_inst_81,
+        ex:role_inst_82,
+        ex:role_inst_83,
+        ex:role_inst_84,
+        ex:role_inst_85,
+        ex:role_inst_86,
+        ex:role_inst_87,
+        ex:role_inst_88,
+        ex:role_inst_9 ;
+    sem:hasBeginTimeStamp "1792-04-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1802-03-25"^^xsd:date ;
+    sem:hasPlace wd:Q1239,
+        wd:Q46,
+        wd:Q491507,
+        wd:Q664609,
+        wd:Q7204,
+        wd:Q97 ;
+    sem:subEventOf wd:Q15053704,
+        wd:Q6534 ;
+    allen:intervalBefore wd:Q78994 ;
+    wd:P156 wd:Q78994 .
+
+wd:Q219825 a sem:Actor,
+        sem:Event ;
+    rdfs:label "National Convention" ;
+    sem:eventType wd:Q35749,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1792-09-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-26"^^xsd:date ;
+    sem:hasPlace wd:Q142 ;
+    sem:subEventOf wd:Q58296,
+        wd:Q6534 ;
+    wd:P1365 wd:Q780457 ;
+    wd:Q107995509 wd:Q2325988,
+        wd:Q617290 .
+
+wd:Q3024240 a sem:EventType ;
+    rdfs:label "historical country" .
+
+wd:Q333843 a sem:Actor ;
+    rdfs:label "Paul Barras",
+        "Paul François Jean Nicolas, vicomte de Barras" .
+
+wd:Q44197 a sem:Actor ;
+    rdfs:label "Maximilien Robespierre" .
+
+wd:Q45382 a sem:EventType ;
+    rdfs:label "coup d'état" .
+
+wd:Q46 a sem:Place ;
+    rdfs:label "Europe" ;
+    sem:placeType wd:P276,
+        wd:P30 .
+
+wd:Q517 a sem:Actor ;
+    rdfs:label "Napoleon",
+        "Napoleon Bonaparte" .
+
+wd:Q5589178 a sem:EventType ;
+    rdfs:label "regime" .
+
+wd:Q69323 a sem:Actor,
+        sem:Event ;
+    rdfs:label "Constitutional Cabinet of Louis XVI" ;
+    sem:eventType wd:Q3024240,
+        wd:Q3624078,
+        wd:Q41614,
+        wd:Q417175,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1791-09-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-21"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q46 ;
+    sem:hasSubEvent wd:Q1154330 ;
+    allen:intervalFinishedBy wd:Q2264242 ;
+    allen:intervalStartedBy wd:Q971176 ;
+    wd:P1365 wd:Q70972 ;
+    wd:P155 wd:Q70972 ;
+    wd:P156 wd:Q58296 ;
+    wd:P361 wd:Q69323 ;
+    wd:Q107995509 wd:Q58296 .
+
+wd:Q78994 a sem:Event ;
+    rdfs:label "Napoleonic Wars" .
+
+wd:Q877619 a sem:Event ;
+    rdfs:label "French Consulate" ;
+    sem:eventType wd:Q3024240,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1799-11-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1804-05-18"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q46,
+        wd:Q58296 ;
+    wd:P155 wd:Q219817 ;
+    wd:P156 wd:Q71084 ;
+    wd:P361 wd:Q877619 .
+
+wd:Q11514315 a sem:EventType ;
+    rdfs:label "historical period" .
+
+wd:Q124757 a sem:EventType ;
+    rdfs:label "riot" .
+
+wd:Q70972 a sem:Actor,
+        sem:Place ;
+    rdfs:label "Kingdom of France" ;
+    sem:placeType wd:P17 .
+
+wd:Q90 a sem:Place ;
+    rdfs:label "Paris" ;
+    sem:placeType wd:P131,
+        wd:P276 .
+
+wd:Q56512863 a sem:RoleType ;
+    rdfs:label "participant" .
+
+wd:Q58296 a sem:Actor,
+        sem:Event,
+        sem:Place ;
+    rdfs:label "First French Republic",
+        "French First Republic" ;
+    sem:eventType wd:Q17152708,
+        wd:Q3024240,
+        wd:Q3624078 ;
+    sem:hasBeginTimeStamp "1792-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1804-01-01"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q5401 ;
+    sem:hasSubEvent wd:Q1347313,
+        wd:Q193547,
+        wd:Q207318,
+        wd:Q248033,
+        wd:Q2998928,
+        wd:Q474757,
+        wd:Q620965,
+        wd:Q664271,
+        wd:Q78994 ;
+    sem:placeType wd:P17,
+        wd:P276 ;
+    allen:intervalDuring wd:Q207318,
+        wd:Q78994 ;
+    allen:intervalFinishedBy wd:Q5373953 ;
+    allen:intervalStartedBy wd:Q2264242 ;
+    wd:P1365 wd:Q1122980,
+        wd:Q157070,
+        wd:Q158835,
+        wd:Q159856,
+        wd:Q2629137,
+        wd:Q2719360,
+        wd:Q302454,
+        wd:Q309460,
+        wd:Q3456410,
+        wd:Q599613,
+        wd:Q638575,
+        wd:Q69323,
+        wd:Q697787 ;
+    wd:P155 wd:Q69323 ;
+    wd:P361 wd:Q58296 ;
+    wd:Q107995509 wd:Q71084 .
+
+wd:Q142 a sem:Place ;
+    rdfs:label "France" ;
+    sem:placeType wd:P17 .
+
+wd:P276 a sem:PlaceType ;
+    rdfs:label "location" .
+
+wd:Q6534 a sem:Actor,
+        sem:Event ;
+    rdfs:label "French Revolution" .
+
+wd:Q1414937 a sem:RoleType ;
+    rdfs:label "combatant" .
+
+wd:Q11247470 a sem:RoleType ;
+    rdfs:label "commanding officer" .
+

@@ -6,11 +6,11 @@ import streamlit as st
 import kb_sparql.sparql_query as sparql_query
 
 ARGS = [
-    {"id": "Q6534", "query_type": "obj-part-of-id",
+    {"id": "Q682258", "query_type": "obj-part-of-id",
         "path": None, "column": None, "clean_df": 1, "save_path": None},
-    {"id": "Q142", "query_type": "obj-instance-of-historical-country-and-has-country-id",
+    {"id": "Q16957", "query_type": "obj-instance-of-historical-country-and-has-country-id",
         "path": None, "column": None, "clean_df": 1, "save_path": None},
-    {"id": "Q6534", "query_type": "id-has-significant-event-obj",
+    {"id": "Q682258", "query_type": "id-has-significant-event-obj",
         "path": None, "column": None, "clean_df": 1, "save_path": None}
 ]
 

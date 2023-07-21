@@ -1,0 +1,201 @@
+@prefix allen: <http://www.w3.org/2006/time#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+
+wd:P1365 rdfs:label "replaces" .
+
+wd:P155 rdfs:label "follows" .
+
+wd:P156 rdfs:label "followed by" .
+
+wd:Q107995509 rdfs:label "replaced by" .
+
+wd:Q1457606 a sem:Event ;
+    rdfs:label "Peaceful Revolution in Leipzig" ;
+    sem:eventType wd:Q13418847 ;
+    sem:hasPlace wd:Q2079 ;
+    sem:subEventOf wd:Q682258 .
+
+wd:Q4115602 a sem:Event ;
+    rdfs:label "Peaceful Revolution" ;
+    sem:eventType wd:Q1190554 ;
+    sem:subEventOf wd:Q682258 .
+
+wd:Q7312198 a sem:Event ;
+    rdfs:label "Removal of Hungary's border fence" ;
+    sem:eventType wd:Q1190554 ;
+    sem:hasPlace wd:Q40 ;
+    sem:hasTimeStamp "1989-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q682258 .
+
+wd:P276 a sem:PlaceType ;
+    rdfs:label "location" .
+
+wd:P30 a sem:PlaceType ;
+    rdfs:label "continent" .
+
+wd:Q1065 a sem:Event ;
+    rdfs:label "United Nations" .
+
+wd:Q1206012 rdfs:label "German Reich" .
+
+wd:Q13418847 a sem:EventType ;
+    rdfs:label "historical event" .
+
+wd:Q157682 a sem:Event ;
+    rdfs:label "Uprising of 1953 in East Germany" ;
+    allen:intervalBefore wd:Q41644 .
+
+wd:Q2079 a sem:Place ;
+    rdfs:label "Leipzig" ;
+    sem:placeType wd:P276 .
+
+wd:Q3024240 a sem:EventType ;
+    rdfs:label "historical country" .
+
+wd:Q325261 a sem:EventType ;
+    rdfs:label "satellite state" .
+
+wd:Q40 a sem:Place ;
+    rdfs:label "Austria" ;
+    sem:placeType wd:P17 .
+
+wd:Q46 a sem:Place ;
+    rdfs:label "Europe" ;
+    sem:placeType wd:P30 .
+
+wd:Q56039 a sem:Event ;
+    rdfs:label "German reunification" .
+
+wd:Q564824 a sem:Event ;
+    rdfs:label "Constitution of East Germany#1949 constitution" .
+
+wd:Q675430 rdfs:label "new states of Germany" .
+
+wd:Q69163529 allen:intervalBefore wd:Q159644 .
+
+wd:Q698099 rdfs:label "Allied Control Council" .
+
+wd:Q713750 a sem:Event ;
+    rdfs:label "West Germany" .
+
+wd:Q7275 a sem:EventType ;
+    rdfs:label "state" .
+
+wd:P17 a sem:PlaceType ;
+    rdfs:label "country" .
+
+wd:Q1190554 a sem:EventType ;
+    rdfs:label "occurrence" .
+
+wd:Q16957 a sem:Event,
+        sem:Place ;
+    rdfs:label "German Democratic Republic" ;
+    sem:eventType wd:Q3024240,
+        wd:Q325261,
+        wd:Q7275 ;
+    sem:hasBeginTimeStamp "1949-10-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1990-10-03"^^xsd:date ;
+    sem:hasPlace wd:Q16957,
+        wd:Q46 ;
+    sem:hasSubEvent wd:Q1065,
+        wd:Q157682,
+        wd:Q2749799,
+        wd:Q41644,
+        wd:Q672112,
+        wd:Q682258,
+        wd:Q708321,
+        wd:Q713750 ;
+    sem:placeType wd:P17 ;
+    allen:intervalFinishedBy wd:Q56039 ;
+    allen:intervalStartedBy wd:Q564824 ;
+    wd:P1365 wd:Q1206012,
+        wd:Q55300,
+        wd:Q698099 ;
+    wd:P155 wd:Q55300 ;
+    wd:P156 wd:Q183 ;
+    wd:P361 wd:Q16957 ;
+    wd:Q107995509 wd:Q183,
+        wd:Q675430 .
+
+wd:Q183 rdfs:label "Germany" .
+
+wd:Q2749799 a sem:Event ;
+    rdfs:label "United Nations Security Council Resolution 335" ;
+    allen:intervalBefore wd:Q682258 .
+
+wd:Q41644 a sem:Event ;
+    rdfs:label "Warsaw Pact" ;
+    allen:intervalBefore wd:Q708321 .
+
+wd:Q55300 rdfs:label "Soviet occupation zone of Germany" .
+
+wd:Q672112 a sem:Event ;
+    rdfs:label "Basic Treaty, 1972" ;
+    allen:intervalBefore wd:Q2749799 .
+
+wd:Q708321 a sem:Event ;
+    rdfs:label "Berlin Crisis of 1961" ;
+    allen:intervalBefore wd:Q672112 .
+
+wd:Q682258 a sem:Event ;
+    rdfs:label "Die Wende and Peaceful Revolution",
+        "Peaceful Revolution" ;
+    allen:intervalBefore wd:Q69163529 .
+
+ex:event_1 a sem:Event.
+ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "Weakening of Soviet Union".
+ex:event_2 a sem:Event.
+ex:event_2 rdfs:label "Disintegration of Eastern bloc".
+
+ex:event_3 a sem:Event.
+ex:event_3 wd:P1542 ex:event_4.
+ex:event_3 rdfs:label "Fall of Berlin Wall".
+ex:event_4 a sem:Event.
+ex:event_4 rdfs:label "Reunification of Germany".
+
+ex:event_5 a sem:Event.
+ex:event_5 wd:P1542 ex:event_6.
+ex:event_5 rdfs:label "Monday demonstrations".
+ex:event_6 a sem:Event.
+ex:event_6 rdfs:label "Peaceful Revolution and opening of GDR's borders".
+
+ex:event_7 a sem:Event.
+ex:event_7 wd:P1542 ex:event_8.
+ex:event_7 rdfs:label "Fall of Berlin Wall and Peaceful Revolution".
+ex:event_8 a sem:Event.
+ex:event_8 rdfs:label "Revolutions of 1989".
+
+ex:event_9 a sem:Event.
+ex:event_9 wd:P1542 ex:event_10.
+ex:event_9 rdfs:label "Soviet leader's decision to abandon Soviet hegemony and reformist movements".
+ex:event_10 a sem:Event.
+ex:event_10 rdfs:label "Events of 1989".
+
+ex:event_11 a sem:Event.
+ex:event_11 wd:P1542 ex:event_12.
+ex:event_11 rdfs:label "Lack of competitiveness in global market and rising national debt of GDR".
+ex:event_12 a sem:Event.
+ex:event_12 rdfs:label "Destabilization of SED".
+
+ex:event_13 a sem:Event.
+ex:event_13 wd:P1542 ex:event_14.
+ex:event_13 rdfs:label "SED's isolation within Eastern Bloc and hostile response to reforms".
+ex:event_14 a sem:Event.
+ex:event_14 rdfs:label "Loss of control and opening of Berlin Wall".
+
+ex:event_15 a sem:Event.
+ex:event_15 wd:P1542 ex:event_16.
+ex:event_15 rdfs:label "Change in leadership and willingness to negotiate by SED, influence of West German government".
+ex:event_16 a sem:Event.
+ex:event_16 rdfs:label "Political initiative towards German reunification".
+
+ex:event_17 a sem:Event.
+ex:event_17 wd:P1542 ex:event_18.
+ex:event_17 rdfs:label "Central Round Table influenced by dissolution of Stasi and preparation for free elections".
+ex:event_18 a sem:Event.
+ex:event_18 rdfs:label "Shaping political path towards reunification".

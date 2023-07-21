@@ -1,0 +1,319 @@
+ex:event_1 wd:P1542 ex:event_2
+ex:event_1 rdfs:label "The Kerch Strait incident"
+ex:event_2 rdfs:label "Russian forces openly engaging Ukrainian forces"
+
+ex:event_2 wd:P1542 ex:event_3
+ex:event_2 rdfs:label "Russian forces openly engaging Ukrainian forces"
+ex:event_3 rdfs:label "Russo-Ukrainian War"
+
+ex:event_4 wd:P1542 ex:event_5
+ex:event_4 rdfs:label "Russia annexing the Crimean Peninsula"
+ex:event_5 rdfs:label "The Kerch Strait incident"
+
+ex:event_5 wd:P1542 ex:event_6
+ex:event_5 rdfs:label "The Kerch Strait incident"
+ex:event_6 rdfs:label "Russian forces firing upon and capturing Ukrainian Navy vessels"
+
+ex:event_7 wd:P1542 ex:event_8
+ex:event_7 rdfs:label "Russia annexing the Crimean Peninsula"
+ex:event_8 rdfs:label "Ukraine holding the invocation of an international treaty with regard to Crimean waters as illegitimate"
+
+ex:event_9 wd:P1542 ex:event_10
+ex:event_9 rdfs:label "The Kerch Strait incident"
+ex:event_10 rdfs:label "Ukrainian ships attempting to transit from the Black Sea into the Sea of Azov through the strait"
+
+ex:event_11 wd:P1542 ex:event_12
+ex:event_11 rdfs:label "The Kerch Strait incident"
+ex:event_12 rdfs:label "Russian coast guard firing upon and capturing Ukrainian Navy vessels"
+
+ex:event_13 wd:P1542 ex:event_14
+ex:event_13 rdfs:label "The Kerch Strait incident"
+ex:event_14 rdfs:label "Ukrainian ships not following the formal procedure for passage through the strait"
+
+ex:event_15 wd:P1542 ex:event_16
+ex:event_15 rdfs:label "The Kerch Strait incident"
+ex:event_16 rdfs:label "Russian coast guard pursuing and seizing Ukrainian vessels in international waters"ex:event_1 wd:P1542 ex:event_2
+ex:event_1 rdfs:label "Euromaidan protests"
+ex:event_2 rdfs:label "Revolution of Dignity"
+
+ex:event_2 wd:P1542 ex:event_3
+ex:event_2 rdfs:label "Revolution of Dignity"
+ex:event_3 rdfs:label "Ousting of Viktor Yanukovych"
+
+ex:event_3 wd:P1542 ex:event_4
+ex:event_3 rdfs:label "Ousting of Viktor Yanukovych"
+ex:event_4 rdfs:label "Pro-Russian unrest in eastern and southern Ukraine"
+
+ex:event_4 wd:P1542 ex:event_5
+ex:event_4 rdfs:label "Pro-Russian unrest in eastern and southern Ukraine"
+ex:event_5 rdfs:label "Unmarked Russian troops move into Crimea"
+
+ex:event_5 wd:P1542 ex:event_6
+ex:event_5 rdfs:label "Unmarked Russian troops move into Crimea"
+ex:event_6 rdfs:label "Annexation of Crimea by Russia"
+
+ex:event_6 wd:P1542 ex:event_7
+ex:event_6 rdfs:label "Annexation of Crimea by Russia"
+ex:event_7 rdfs:label "Armed pro-Russian separatists seize government buildings in Donbas region"
+
+ex:event_7 wd:P1542 ex:event_8
+ex:event_7 rdfs:label "Armed pro-Russian separatists seize government buildings in Donbas region"
+ex:event_8 rdfs:label "Formation of Donetsk People's Republic and Luhansk People's Republic"
+
+ex:event_8 wd:P1542 ex:event_9
+ex:event_8 rdfs:label "Formation of Donetsk People's Republic and Luhansk People's Republic"
+ex:event_9 rdfs:label "Donbas war begins"
+
+ex:event_9 wd:P1542 ex:event_10
+ex:event_9 rdfs:label "Donbas war begins"
+ex:event_10 rdfs:label "Covert support from Russia to separatists"
+
+ex:event_10 wd:P1542 ex:event_11
+ex:event_10 rdfs:label "Covert support from Russia to separatists"
+ex:event_11 rdfs:label "Russian troops participate in the fighting"
+
+ex:event_11 wd:P1542 ex:event_12
+ex:event_11 rdfs:label "Russian troops participate in the fighting"
+ex:event_12 rdfs:label "Minsk II agreements signed"
+
+ex:event_12 wd:P1542 ex:event_13
+ex:event_12 rdfs:label "Minsk II agreements signed"
+ex:event_13 rdfs:label "Violent but static conflict in Donbas region"
+
+ex:event_13 wd:P1542 ex:event_14
+ex:event_13 rdfs:label "Violent but static conflict in Donbas region"
+ex:event_14 rdfs:label "Russia builds up military presence near Ukraine's border"
+
+ex:event_14 wd:P1542 ex:event_15
+ex:event_14 rdfs:label "Russia builds up military presence near Ukraine's border"
+ex:event_15 rdfs:label "Russia recognizes DPR and LPR as independent states"
+
+ex:event_15 wd:P1542 ex:event_16
+ex:event_15 rdfs:label "Russia recognizes DPR and LPR as independent states"
+ex:event_16 rdfs:label "Russia launches full-scale invasion of Ukraine"ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "The Minsk agreements".
+ex:event_2 rdfs:label "Donbas war".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_3 rdfs:label "Donbas war".
+ex:event_4 rdfs:label "armed Russian separatist groups and Armed Forces of Ukraine".
+
+ex:event_2 wd:P1542 ex:event_5.
+ex:event_5 rdfs:label "Donbas war".
+ex:event_6 rdfs:label "Russian regular forces playing a central part".
+
+ex:event_1 wd:P1542 ex:event_7.
+ex:event_7 rdfs:label "The Minsk agreements".
+ex:event_8 rdfs:label "Minsk Protocol".
+
+ex:event_7 wd:P1542 ex:event_9.
+ex:event_9 rdfs:label "The Minsk agreements".
+ex:event_10 rdfs:label "Trilateral Contact Group on Ukraine".
+
+ex:event_7 wd:P1542 ex:event_11.
+ex:event_11 rdfs:label "The Minsk agreements".
+ex:event_12 rdfs:label "Organization for Security and Co-operation in Europe (OSCE)".
+
+ex:event_7 wd:P1542 ex:event_13.
+ex:event_13 rdfs:label "The Minsk agreements".
+ex:event_14 rdfs:label "mediation by the leaders of France and Germany in the so-called Normandy Format".
+
+ex:event_7 wd:P1542 ex:event_15.
+ex:event_15 rdfs:label "The Minsk agreements".
+ex:event_16 rdfs:label "extensive talks in Minsk, Belarus".
+
+ex:event_7 wd:P1542 ex:event_17.
+ex:event_17 rdfs:label "The Minsk agreements".
+ex:event_18 rdfs:label "signed on 5 September 2014".
+
+ex:event_17 wd:P1542 ex:event_19.
+ex:event_19 rdfs:label "signed on 5 September 2014".
+ex:event_20 rdfs:label "representatives of the Trilateral Contact Group".
+
+ex:event_17 wd:P1542 ex:event_21.
+ex:event_21 rdfs:label "signed on 5 September 2014".
+ex:event_22 rdfs:label "then-leaders of the self-proclaimed Donetsk People's Republic (DPR) and Luhansk People's Republic (LPR)".
+
+ex:event_17 wd:P1542 ex:event_23.
+ex:event_23 rdfs:label "signed on 5 September 2014".
+ex:event_24 rdfs:label "without recognition of their status".
+
+ex:event_17 wd:P1542 ex:event_25.
+ex:event_25 rdfs:label "signed on 5 September 2014".
+ex:event_26 rdfs:label "aimed to implement an immediate ceasefire".
+
+ex:event_25 wd:P1542 ex:event_27.
+ex:event_27 rdfs:label "aimed to implement an immediate ceasefire".
+ex:event_28 rdfs:label "agreement failed to stop fighting".
+
+ex:event_27 wd:P1542 ex:event_29.
+ex:event_29 rdfs:label "agreement failed to stop fighting".
+ex:event_30 rdfs:label "revised and updated agreement, Minsk II".
+
+ex:event_30 wd:P1542 ex:event_31.
+ex:event_31 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_32 rdfs:label "signed on 12 February 2015".
+
+ex:event_31 wd:P1542 ex:event_33.
+ex:event_33 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_34 rdfs:label "package of measures".
+
+ex:event_31 wd:P1542 ex:event_35.
+ex:event_35 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_36 rdfs:label "ceasefire".
+
+ex:event_31 wd:P1542 ex:event_37.
+ex:event_37 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_38 rdfs:label "withdrawal of heavy weapons from the front line".
+
+ex:event_31 wd:P1542 ex:event_39.
+ex:event_39 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_40 rdfs:label "release of prisoners of war".
+
+ex:event_31 wd:P1542 ex:event_41.
+ex:event_41 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_42 rdfs:label "constitutional reform in Ukraine granting self-government to certain areas of Donbas".
+
+ex:event_31 wd:P1542 ex:event_43.
+ex:event_43 rdfs:label "revised and updated agreement, Minsk II".
+ex:event_44 rdfs:label "restoring control of the state border to the Ukrainian government".
+
+ex:event_37 wd:P1542 ex:event_45.
+ex:event_45 rdfs:label "withdrawal of heavy weapons from the front line".
+ex:event_46 rdfs:label "fighting subsided following the agreement's signing".
+
+ex:event_46 wd:P1542 ex:event_47.
+ex:event_47 rdfs:label "fighting subsided following the agreement's signing".
+ex:event_48 rdfs:label "agreement's provisions were never fully implemented".
+
+ex:event_48 wd:P1542 ex:event_49.
+ex:event_49 rdfs:label "agreement's provisions were never fully implemented".
+ex:event_50 rdfs:label "Minsk II was suggested by former German Foreign Minister Frank-Walter Steinmeier".
+
+ex:event_50 wd:P1542 ex:event_51.
+ex:event_51 rdfs:label "Minsk II was suggested by former German Foreign Minister Frank-Walter Steinmeier".
+ex:event_52 rdfs:label "mechanism of granting a special status to Donbass".
+
+ex:event_52 wd:P1542 ex:event_53.
+ex:event_53 rdfs:label "mechanism of granting a special status to Donbass".
+ex:event_54 rdfs:label "also called the Steinmeier formula".
+
+ex:event_54 wd:P1542 ex:event_55.
+ex:event_55 rdfs:label "also called the Steinmeier formula".
+ex:event_56 rdfs:label "rising tensions between Russia and Ukraine in early 2022".
+
+ex:event_56 wd:P1542 ex:event_57.
+ex:event_57 rdfs:label "rising tensions between Russia and Ukraine in early 2022".
+ex:event_58 rdfs:label "Russia officially recognised the DPR and LPR on 21 February 2022".
+
+ex:event_58 wd:P1542 ex:event_59.
+ex:event_59 rdfs:label "Russia officially recognised the DPR and LPR on 21 February 2022".
+ex:event_60 rdfs:label "Russia invaded Ukraine on 24 February 2022".
+
+ex:event_60 wd:P1542 ex:event_61.
+ex:event_61 rdfs:label "Russia invaded Ukraine on 24 February 2022".
+ex:event_62 rdfs:label "Minsk agreements no longer existed".
+
+ex:event_61 wd:P1542 ex:event_63.
+ex:event_63 rdfs:label "Minsk agreements no longer existed".
+ex:event_64 rdfs:label "Ukraine, not Russia, was to blame for their collapse".ex:event_1 wd:P1542 ex:event_2
+ex:event_1 rdfs:label "formation of the Azov Battalion"
+ex:event_2 rdfs:label "incorporation of the Azov Battalion into the National Guard"
+
+ex:event_1 wd:P1542 ex:event_3
+ex:event_1 rdfs:label "formation of the Azov Battalion"
+ex:event_3 rdfs:label "fighting pro-Russian forces in the war in Donbas"
+
+ex:event_2 wd:P1542 ex:event_4
+ex:event_2 rdfs:label "incorporation of the Azov Battalion into the National Guard"
+ex:event_4 rdfs:label "redesignation of the Azov Battalion as Special Operations Detachment 'Azov'"
+
+ex:event_3 wd:P1542 ex:event_5
+ex:event_3 rdfs:label "fighting pro-Russian forces in the war in Donbas"
+ex:event_5 rdfs:label "formation of the Azov Regiment"
+
+ex:event_4 wd:P1542 ex:event_5
+ex:event_4 rdfs:label "redesignation of the Azov Battalion as Special Operations Detachment 'Azov'"
+ex:event_5 rdfs:label "formation of the Azov Regiment"
+
+ex:event_5 wd:P1542 ex:event_6
+ex:event_5 rdfs:label "formation of the Azov Regiment"
+ex:event_6 rdfs:label "expansion of Azov as a brigade of the Offensive Guard"
+
+ex:event_7 wd:P1542 ex:event_8
+ex:event_7 rdfs:label "early association of Azov with far-right groups and neo-Nazi ideology"
+ex:event_8 rdfs:label "controversy surrounding Azov's use of controversial symbols linked to Nazism"
+
+ex:event_7 wd:P1542 ex:event_9
+ex:event_7 rdfs:label "early association of Azov with far-right groups and neo-Nazi ideology"
+ex:event_9 rdfs:label "allegations of torture and war crimes by members of Azov"
+
+ex:event_8 wd:P1542 ex:event_10
+ex:event_8 rdfs:label "controversy surrounding Azov's use of controversial symbols linked to Nazism"
+ex:event_10 rdfs:label "criticism of Azov's role within the larger Azov Movement"
+
+ex:event_9 wd:P1542 ex:event_11
+ex:event_9 rdfs:label "allegations of torture and war crimes by members of Azov"
+ex:event_11 rdfs:label "Russian propaganda against Azov"
+
+ex:event_12 wd:P1542 ex:event_13
+ex:event_12 rdfs:label "Russian invasion of Ukraine"
+ex:event_13 rdfs:label "reasons given by Vladimir Putin for the invasion"
+
+ex:event_14 wd:P1542 ex:event_15
+ex:event_14 rdfs:label "Siege of Mariupol"
+ex:event_15 rdfs:label "prominent role of Azov Regiment in the city's defense"
+
+ex:event_14 wd:P1542 ex:event_16
+ex:event_14 rdfs:label "Siege of Mariupol"
+ex:event_16 rdfs:label "final stand of Azov Regiment at the Azovstal steel plant"ex:event_1 wd:P1542 ex:event_2.
+ex:event_1 rdfs:label "events in Kyiv that ousted Ukrainian president Viktor Yanukovych on 22 February 2014".
+ex:event_2 rdfs:label "pro-Russian demonstrations as of 23 February against the incoming new Ukrainian government".
+
+ex:event_2 wd:P1542 ex:event_3.
+ex:event_2 rdfs:label "pro-Russian demonstrations as of 23 February against the incoming new Ukrainian government".
+ex:event_3 rdfs:label "Russian president Vladimir Putin discussed Ukrainian events with security service chiefs remarking that 'we must start working on returning Crimea to Russia'".
+
+ex:event_3 wd:P1542 ex:event_4.
+ex:event_3 rdfs:label "Russian president Vladimir Putin discussed Ukrainian events with security service chiefs remarking that 'we must start working on returning Crimea to Russia'".
+ex:event_4 rdfs:label "Russian troops captured strategic sites across Crimea".
+
+ex:event_4 wd:P1542 ex:event_5.
+ex:event_4 rdfs:label "Russian troops captured strategic sites across Crimea".
+ex:event_5 rdfs:label "installation of the pro-Russian Aksyonov government in Crimea".
+
+ex:event_5 wd:P1542 ex:event_6.
+ex:event_5 rdfs:label "installation of the pro-Russian Aksyonov government in Crimea".
+ex:event_6 rdfs:label "Crimean status referendum".
+
+ex:event_6 wd:P1542 ex:event_7.
+ex:event_6 rdfs:label "Crimean status referendum".
+ex:event_7 rdfs:label "declaration of Crimea's independence on 16 March 2014".
+
+ex:event_7 wd:P1542 ex:event_8.
+ex:event_7 rdfs:label "declaration of Crimea's independence on 16 March 2014".
+ex:event_8 rdfs:label "Russia formally incorporated Crimea on 18 March 2014".
+
+ex:event_8 wd:P1542 ex:event_9.
+ex:event_8 rdfs:label "Russia formally incorporated Crimea on 18 March 2014".
+ex:event_9 rdfs:label "escalation of Russia's military presence on the peninsula".
+
+ex:event_9 wd:P1542 ex:event_10.
+ex:event_9 rdfs:label "escalation of Russia's military presence on the peninsula".
+ex:event_10 rdfs:label "threats to solidify the new status quo on the ground".
+
+ex:event_10 wd:P1542 ex:event_11.
+ex:event_10 rdfs:label "threats to solidify the new status quo on the ground".
+ex:event_11 rdfs:label "Ukraine and many other countries condemned the annexation and consider it to be a violation of international law and Russian agreements safeguarding the territorial integrity of Ukraine".
+
+ex:event_11 wd:P1542 ex:event_12.
+ex:event_11 rdfs:label "Ukraine and many other countries condemned the annexation and consider it to be a violation of international law and Russian agreements safeguarding the territorial integrity of Ukraine".
+ex:event_12 rdfs:label "the annexation led to the other members of the then-G8 suspending Russia from the group and introducing sanctions".
+
+ex:event_12 wd:P1542 ex:event_13.
+ex:event_12 rdfs:label "the annexation led to the other members of the then-G8 suspending Russia from the group and introducing sanctions".
+ex:event_13 rdfs:label "the United Nations General Assembly also rejected the referendum and annexation, adopting a resolution affirming the 'territorial integrity of Ukraine within its internationally recognised borders', and referring to the Russian action as a 'temporary occupation'".
+
+ex:event_13 wd:P1542 ex:event_14.
+ex:event_13 rdfs:label "the United Nations General Assembly also rejected the referendum and annexation, adopting a resolution affirming the 'territorial integrity of Ukraine within its internationally recognised borders', and referring to the Russian action as a 'temporary occupation'".
+ex:event_14 rdfs:label "the Russian government opposes the 'annexation' label, with Putin defending the referendum as complying with the principle of the self-determination of peoples".

@@ -107,8 +107,8 @@ def main(args):
 
 if __name__ == '__main__':
     """
-    Q6534: French Revolution
-    Q142: France
+    Q682258: Peaceful Revolution
+    Q16957: German Democratic Republic
     """
     ap = argparse.ArgumentParser()
     ap.add_argument("-id", '--id', default=None,

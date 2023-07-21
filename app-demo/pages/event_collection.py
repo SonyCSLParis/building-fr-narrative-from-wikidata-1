@@ -10,10 +10,8 @@ import streamlit as st
 from settings.settings import ROOT_PATH
 from .helpers import collect_data_st, display_html_graph
 
-
 with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection.yaml")) as file:
     content = yaml.load(file, Loader=yaml.FullLoader)
-
 
 def app():
     """ Main app function """
@@ -25,7 +23,7 @@ def app():
         --- """)
     st.markdown(
         """
-        The aim of this demo was to study the replication of the narrative builder with the Russo-Ukrainian war.
+        The aim of this demo was to study the replication of the narrative builder with different historical events.
 
         Several types of nodes were taken into account for this pilot:
         * <event> **part of** <Russo-Ukrainian war>
@@ -33,9 +31,9 @@ def app():
         * <event> **is instance of** <historical country>
         and **has country** <Ukraine>
 
-        An additional filter was added to extract events in the right time range.
-        """
-    )
+        An additional filter was added to extract events in the right time period.
+        """)
+
 
     display_html_graph(html_path=os.path.join(ROOT_PATH,
                                               f"app-demo/graph-html/{content['graph_doc']}.html"),

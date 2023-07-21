@@ -1,0 +1,175 @@
+This document contains the SPARQL queries used to evaluate the quality of the knowledge graphs 
+which were produced during the writing of Brongers (2023).
+
+
+1. Triple count
+# count number of triples
+
+select (count(*) as ?triples) 
+where { 
+	?s ?p ?o .
+}
+
+2. Predicate count
+# counting the predicates by grouping all triples based on their predicates and counting the size of the group
+SELECT
+    ?predicate (COUNT(?predicate) as ?predicateCount)
+WHERE {
+    ?subject ?predicate ?object .
+}
+GROUP BY
+    ?predicate
+ORDER BY
+    DESC(?predicateCount)
+
+3. Class count
+# counting the sizes of each class by grouping all triples that include the predicat 'has class' and then counting the size of the group
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?class (count(?s) as ?count)
+WHERE { ?s rdf:type ?class}
+GROUP BY ?class
+
+4. Causal links individually
+# get the subject(s) and object(s) that are connected by a causal link
+# uncomment the line of interest to run the query (only one line per run)
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT ?subject  ?object 
+WHERE {
+    #OPTIONAL {?subject wd:Q17104930 ?object .} #outcome
+    #OPTIONAL {?subject wd:Q2574811 ?object .} #cause
+    #OPTIONAL {?subject wd:Q2995644 ?object .} #result
+    #OPTIONAL {?subject wd:Q183366 ?object .} #territory
+    #OPTIONAL {?subject wd:P1542 ?object .} #hasEffect
+}
+
+5. Temporal links individually
+# get the subject(s) and object(s) that are connected by a temporal link
+# uncomment the line of interest to run the query (only one line per run)
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX allen: <http://www.w3.org/2006/time#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+SELECT ?subject  ?object
+WHERE {
+    #OPTIONAL {?subject allen:intervalBefore ?object .} 
+    #OPTIONAL {?subject allen:intervalDuring ?object .} 
+    #OPTIONAL {?subject allen:intervalFinishedBy ?object .} 
+    #OPTIONAL {?subject allen:intervalStartedBy ?object .} 
+    #OPTIONAL {?subject dbo:alongside ?object .} 
+    #OPTIONAL {?subject sem:hasBeginTimeStamp ?object .} 
+    #OPTIONAL {?subject sem:hasEndTimeStamp ?object .} 
+    #OPTIONAL {?subject sem:hasTimeStamp ?object .} 
+    #OPTIONAL {?subject wd:P155 ?object .} #follows
+	#OPTIONAL {?subject wd:P156 ?object .} #followed by
+    #OPTIONAL {?subject wd:Q66305721 ?object .} #part of
+    #OPTIONAL {?subject wd:Q107995510 ?object .} #replaces
+    #OPTIONAL {?subject wd:Q107995509 ?object .} #replaced by
+    #OPTIONAL {?subject wd:Q11514315 ?object .} #time period/historical period
+    #OPTIONAL {?subject wd:Q6428674 ?object .} #era
+    #OPTIONAL {?predicate wd:Q1656682 ?object .} #event
+    #OPTIONAL {?subject wd:Q99632598 ?object .} #succession    
+}
+
+6. Count of causal links
+# counting all causal links
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT
+    ?predicate (COUNT(?predicate) as ?predicateCount)
+WHERE {
+    ?subject ?predicate ?object .
+    FILTER (?predicate = wd:Q17104930 || ?predicate = wd:Q2574811 || ?predicate = wd:Q2995644 || ?predicate = wd:Q183366 || ?predicate = wd:P1542)
+}
+GROUP BY
+    ?predicate
+ORDER BY
+    DESC(?predicateCount)
+
+7. Count of temporal links
+# counting all temporal links
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX allen: <http://www.w3.org/2006/time#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+SELECT
+    ?predicate (COUNT(?predicate) as ?predicateCount)
+WHERE {
+    ?subject ?predicate ?object .
+    FILTER (?predicate = allen:intervalBefore || ?predicate = allen:intervalDuring || ?predicate = allen:intervalFinishedBy || ?predicate = allen:intervalStartedBy || ?predicate = dbo:alongside || ?predicate = sem:hasBeginTimeStamp || ?predicate = sem:hasEndTimeStamp || ?predicate = sem:hasTimeStamp || ?predicate = wd:P155 || ?predicate = wd:P156 || ?predicate = wd:Q66305721 || ?predicate = wd:Q107995510 || ?predicate = wd:Q107995509 || ?predicate = wd:Q11514315 || ?predicate = wd:Q6428674 || ?predicate = wd:Q1656682 || ?predicate = wd:Q99632598)   .
+}
+GROUP BY
+    ?predicate
+ORDER BY
+    DESC(?predicateCount)
+
+8. Events and their actors over time
+# count the number of actors + their roletype(s) per event
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX allen: <http://www.w3.org/2006/time#>
+select * where { 
+    ?bn_actor rdf:value ?actor.
+    ?bn_actor sem:roleType ?bn_roletype.
+    ?bn_roletype rdfs:label ?roletype.
+    ?event sem:hasActor ?bn_actor.
+    OPTIONAL {?event sem:hasBeginTimeStamp/allen:intervalStartedBy* ?time}.
+    OPTIONAL {?event sem:hasTimeStamp ?time}.
+}
+
+9. Actor co-occurance
+# count the number of times actors were present at the same event
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?ai1 ?lai1 ?ai2 ?lai2 (COUNT(?e) as ?nb) where { 
+?e sem:hasActor ?a1 ; 
+   sem:hasActor ?a2 . 
+?a1 a sem:Role ; 
+    rdf:value ?ai1 .
+?ai1 rdfs:label ?lai1 .
+?a2 a sem:Role ;
+    rdf:value ?ai2 .
+?ai2 rdfs:label ?lai2 .
+FILTER(LCASE(STR(?ai1)) < LCASE(STR(?ai2))) 
+}
+GROUP BY ?ai1 ?lai1 ?ai2 ?lai2
+ORDER BY DESC(?nb)
+
+10. Indegree
+# indegree per node: the number of incoming predicates grouped per node
+SELECT ?node (COUNT(?incoming) AS ?indegree)
+WHERE {
+  ?incoming ?predicate ?node .
+}
+GROUP BY ?node
+
+11. Outdegree
+# outdegree per node: the number of outgoing predicates grouped per node
+SELECT ?node (COUNT(?outgoing) AS ?outdegree)
+WHERE {
+  ?node ?predicate ?outgoing .
+}
+GROUP BY ?node
+
+
+
+
+
+
+
+
+
+
+
+
+
+

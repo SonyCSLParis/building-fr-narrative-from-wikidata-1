@@ -22,10 +22,20 @@ def build_network(df_wp, df_wd):
 def app():
     """ Main app page """
     st.title("Build the network")
+
+    st.markdown("""
+    Where would you like the knowledge graph to be downloaded? Please fill in the location as a path including:
+    the name of the file and ending with '.ttl'. 
+    For example: C:/Users/LauraBrongers/Documents/sony csl internship/knowledge_graph_FR.ttl
+    """)
+    
+    selected_destination = st.text_area("Fill in location + file name + .ttl here", "C:/Users/example_path/example_knowledge_graph_name.ttl")
+    
+    st.markdown(f" You selected: {selected_destination}")
+    
     st.markdown("""
     #
-    Clicking the button will have the narrative network constructed. 
-    
+    Clicking the button below will have the narrative network constructed: 
     Extracted info from last steps will be converted to RDF triples.
     """)
 
@@ -37,11 +47,12 @@ def app():
         st.write("##")
         if st.button("Build network"):
 
-            # Populating ontology by converting wikipedia semi-structured data
+            # populating ontology by converting wikipedia semi-structured data
             # and wikidata triples
             build_start = datetime.now()
             graph, _ = build_network(df_wp=df_wp, df_wd=df_wd)
-            graph.serialize(destination="C:/Users/LauraBrongers/Documents/sony csl internship/RQ1/output_graph.ttl", format="turtle")
+            # adjust destination path to your prefered location to save the knowledge graph
+            graph.serialize(destination=selected_destination, format="turtle") 
 
             if check_session_state_value(var="data_in_cache", value=True):
                 init_update_session_state(var="graph", value=graph)

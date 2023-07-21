@@ -8,11 +8,8 @@ from settings.settings import ROOT_PATH
 
 from kb_sparql.query_db import SPARQL_QUERIES
 from kb_sparql.sparql_query import run_query_return_df
-from .helpers import get_session_state_val
+from .helpers import get_session_state_val, add_download_link
 from .helpers import check_session_state_value, init_update_session_state
-
-with open(os.path.join(ROOT_PATH, "app-demo/content/event_collection.yaml")) as file:
-    content = yaml.load(file, Loader=yaml.FullLoader)
 
 query_template = SPARQL_QUERIES['forward_links']
 
@@ -60,7 +57,9 @@ def app():
     if st.button("Extract outgoing nodes"):
 
         df_wd = get_outgoing_nodes(events=data.event.values)
-
+        add_download_link(to_download=df_wd.to_csv(index=False).encode(),
+                          file_end_name="collected-wikidata", extension="csv")
+        
         if check_session_state_value(var="data_in_cache", value=True):
             init_update_session_state(var="wikidata_for_graph", value=df_wd)
 

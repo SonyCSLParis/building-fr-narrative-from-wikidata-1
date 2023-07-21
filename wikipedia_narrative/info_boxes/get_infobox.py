@@ -93,8 +93,8 @@ def add_url(infobox: dict, links: dict[str, str]) -> dict[str, dict]:
 
 
 if __name__ == '__main__':
-    INFOBOX = extract_infobox_no_url(page_name="Coup of 18 Fructidor", options=["1", "2", "3"])
-    HTML_CONTENT = get_html_from_url(url="https://en.wikipedia.org/wiki/Coup_of_18_Fructidor")
+    INFOBOX = extract_infobox_no_url(page_name="Fall of the Berlin Wall", options=["1", "2", "3"])
+    HTML_CONTENT = get_html_from_url(url="https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall")
     LINKS = get_link_from_html(html_content=HTML_CONTENT)
     print(LINKS)
     RES = add_url(INFOBOX, LINKS)
