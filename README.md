@@ -149,9 +149,9 @@ The work reported in this paper was funded by the [European MUHAI project](https
 <br/>
 This work is also the result of a joint collaboration between the following partners in the project: [Sony CSL Paris](https://csl.sony.fr/project/building-narratives-computationally-from-knowledge-graphs/) & [Vrije Universiteit Amsterdam](https://krr.cs.vu.nl)
 
-Contact: [Inès Blin](mailto:ines.blin@sony.com)
+Contact: [Laura Brongers](mailto:laura.brongers@gmail.com)
 
-[Corresponding paper link](https://ceur-ws.org/Vol-3322/short1.pdf)
+[Corresponding paper link](<to-be-completed-when-proceedings-out>)
 
 ---
 ## Citation
